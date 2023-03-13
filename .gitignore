@@ -80,7 +80,6 @@ connectwebgl.zip
 .Build/
 
 *.bnk
-Assets\StreamingAssets\Audio\GeneratedSoundBanks/
 
 # WWise Picker (editor)
 # from https://www.audiokinetic.com/library/edge/?source=Unity&id=unity__troubleshooting.html
