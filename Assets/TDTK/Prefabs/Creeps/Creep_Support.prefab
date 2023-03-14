@@ -141,7 +141,7 @@ Transform:
   m_GameObject: {fileID: 1368356499209674}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4670758924346726}
@@ -170,7 +170,7 @@ MonoBehaviour:
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.2
-  targetPoint: {fileID: 4380748054070366}
+  targetPoint: {fileID: 0}
   hp: 7
   sh: 0
   shStagger: 0
