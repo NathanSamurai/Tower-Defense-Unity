@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1387428d775a94999f3c9a147f2c8a, type: 3}
+  m_Name: TowerDB
+  m_EditorClassIdentifier: 
+  objList:
+  - {fileID: 1831089129482660, guid: 232a41f67b6cc6e4bbcbd55d6664a3eb, type: 3}
+  - {fileID: 1239107217020288, guid: 83408afc61d1bb54eb8a281d0e366c99, type: 3}
+  - {fileID: 1559356812443584, guid: 2d7555128cdf3e248af53a16f449ef86, type: 3}
+  - {fileID: 1486071284530726, guid: 3f0be5a8c13ba174ea75fa50fe15fb44, type: 3}
+  - {fileID: 1940423741694192, guid: bfb02c1cfad601042bd343620d28e1ef, type: 3}
+  - {fileID: 1940423741694192, guid: 0f3e3bcb818ed2e44aa9c634151cd2d7, type: 3}
+  - {fileID: 1136647811518820, guid: b3600a2efb36e044b834ccc3abf9f886, type: 3}
+  - {fileID: 1239107217020288, guid: bf71c92a2333dd847b76d90dcdebb3cc, type: 3}
+  - {fileID: 1239107217020288, guid: 9296eb95e6ad99c4aaa9046a333c5792, type: 3}
+  - {fileID: 1239107217020288, guid: 47be81673f8a7944b9787a435a79fd27, type: 3}
+  towerList:
+  - {fileID: 114825332541157422, guid: 232a41f67b6cc6e4bbcbd55d6664a3eb, type: 3}
+  - {fileID: 114541810645508154, guid: 83408afc61d1bb54eb8a281d0e366c99, type: 3}
+  - {fileID: 114928476342519558, guid: 2d7555128cdf3e248af53a16f449ef86, type: 3}
+  - {fileID: 114132534924388918, guid: 3f0be5a8c13ba174ea75fa50fe15fb44, type: 3}
+  - {fileID: 114424032017952368, guid: bfb02c1cfad601042bd343620d28e1ef, type: 3}
+  - {fileID: 114424032017952368, guid: 0f3e3bcb818ed2e44aa9c634151cd2d7, type: 3}
+  - {fileID: 114544440111874162, guid: b3600a2efb36e044b834ccc3abf9f886, type: 3}
+  - {fileID: 114541810645508154, guid: bf71c92a2333dd847b76d90dcdebb3cc, type: 3}
+  - {fileID: 114541810645508154, guid: 9296eb95e6ad99c4aaa9046a333c5792, type: 3}
+  - {fileID: 114541810645508154, guid: 47be81673f8a7944b9787a435a79fd27, type: 3}
+  copiedFromOldDB: 0

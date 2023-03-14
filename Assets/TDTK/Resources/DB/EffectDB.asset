@@ -1,0 +1,761 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4192d4e9598964b44803d3bdbc2764f1, type: 3}
+  m_Name: EffectDB
+  m_EditorClassIdentifier: 
+  effectList:
+  - prefabID: 0
+    instanceID: -1
+    icon: {fileID: 21300030, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Slow_AOETower
+    desp: Slow target by 50%
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 1
+    stackable: 0
+    duration: 1
+    durationRemain: 1
+    effType: 1
+    stun: 0
+    stats:
+      editTurret: 1
+      editAOE: 0
+      editMine: 0
+      buildDuration: 1
+      sellDuration: 1
+      expToNextUpgrade: 10
+      cost:
+      - 1
+      - 1
+      sellValue: []
+      hp: 1
+      sh: 1
+      shRegen: 1
+      shStagger: 1
+      hpRate: 1
+      shRate: 1
+      armorType: 0
+      damageType: 0
+      speed: 0.5
+      dodge: 1
+      dmgReduc: 1
+      critReduc: 1
+      hit: 1
+      damageMin: 1
+      damageMax: 1
+      attackRange: 1
+      aoeRange: 1
+      cooldown: 1
+      critChance: 1
+      critMultiplier: 1
+      effectOnHitChance: 1
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 1
+      damageMin_AOE: 1
+      damageMax_AOE: 1
+      attackRange_AOE: 1
+      cooldown_AOE: 1
+      critChance_AOE: 1
+      critMultiplier_AOE: 1
+      effectOnHitChance_AOE: 1
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 1
+      damageMin_Mine: 1
+      damageMax_Mine: 1
+      aoeRange_Mine: 1
+      cooldown_Mine: 1
+      critChance_Mine: 1
+      critMultiplier_Mine: 1
+      effectOnHitChance_Mine: 1
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 1
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 1
+      rscGain:
+      - 1
+      - 1
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 4441788593414716, guid: 5ff509818bdf57f41b72b8aefcf6151e,
+      type: 3}
+  - prefabID: 5
+    instanceID: -1
+    icon: {fileID: 21300030, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Slow_Ability
+    desp: Slow target by 75%
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 0
+    stackable: 0
+    duration: 5
+    durationRemain: 1
+    effType: 1
+    stun: 0
+    stats:
+      editTurret: 0
+      editAOE: 0
+      editMine: 0
+      buildDuration: 1
+      sellDuration: 1
+      expToNextUpgrade: 10
+      cost:
+      - 1
+      - 1
+      sellValue: []
+      hp: 1
+      sh: 1
+      shRegen: 1
+      shStagger: 1
+      hpRate: 1
+      shRate: 1
+      armorType: 0
+      damageType: 0
+      speed: 0.25
+      dodge: 1
+      dmgReduc: 1
+      critReduc: 1
+      hit: 1
+      damageMin: 1
+      damageMax: 1
+      attackRange: 1
+      aoeRange: 1
+      cooldown: 1
+      critChance: 1
+      critMultiplier: 1
+      effectOnHitChance: 1
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 1
+      damageMin_AOE: 1
+      damageMax_AOE: 1
+      attackRange_AOE: 1
+      cooldown_AOE: 1
+      critChance_AOE: 1
+      critMultiplier_AOE: 1
+      effectOnHitChance_AOE: 1
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 1
+      damageMin_Mine: 1
+      damageMax_Mine: 1
+      aoeRange_Mine: 1
+      cooldown_Mine: 1
+      critChance_Mine: 1
+      critMultiplier_Mine: 1
+      effectOnHitChance_Mine: 1
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 1
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 1
+      rscGain:
+      - 1
+      - 1
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 4441788593414716, guid: 5ff509818bdf57f41b72b8aefcf6151e,
+      type: 3}
+  - prefabID: 1
+    instanceID: -1
+    icon: {fileID: 21300052, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Damage Over Time I
+    desp: Cause 6 damage over 3sec
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 0
+    stackable: 1
+    duration: 3
+    durationRemain: 1
+    effType: 0
+    stun: 0
+    stats:
+      editTurret: 0
+      editAOE: 0
+      editMine: 1
+      buildDuration: 0
+      sellDuration: 0
+      expToNextUpgrade: 10
+      cost:
+      - 0
+      - 0
+      sellValue: []
+      hp: 0
+      sh: 0
+      shRegen: 0
+      shStagger: 0
+      hpRate: -2
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 0
+      dodge: 0
+      dmgReduc: 0
+      critReduc: 0
+      hit: 0
+      damageMin: 0
+      damageMax: 0
+      attackRange: 0
+      aoeRange: 0
+      cooldown: 0
+      critChance: 0
+      critMultiplier: 0
+      effectOnHitChance: 0
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 0
+      damageMin_AOE: 0
+      damageMax_AOE: 0
+      attackRange_AOE: 0
+      cooldown_AOE: 0
+      critChance_AOE: 0
+      critMultiplier_AOE: 0
+      effectOnHitChance_AOE: 0
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 0
+      damageMin_Mine: 0
+      damageMax_Mine: 0
+      aoeRange_Mine: 0
+      cooldown_Mine: 0
+      critChance_Mine: 0
+      critMultiplier_Mine: 0
+      effectOnHitChance_Mine: 0
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 0
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 0
+      rscGain:
+      - 0
+      - 0
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 0}
+  - prefabID: 4
+    instanceID: -1
+    icon: {fileID: 21300052, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Damage Over Time II
+    desp: Cause 12 damage over 3sec
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 0
+    stackable: 1
+    duration: 3
+    durationRemain: 1
+    effType: 0
+    stun: 0
+    stats:
+      editTurret: 0
+      editAOE: 0
+      editMine: 0
+      buildDuration: 0
+      sellDuration: 0
+      expToNextUpgrade: 10
+      cost:
+      - 0
+      - 0
+      sellValue: []
+      hp: 0
+      sh: 0
+      shRegen: 0
+      shStagger: 0
+      hpRate: -4
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 0
+      dodge: 0
+      dmgReduc: 0
+      critReduc: 0
+      hit: 0
+      damageMin: 0
+      damageMax: 0
+      attackRange: 0
+      aoeRange: 0
+      cooldown: 0
+      critChance: 0
+      critMultiplier: 0
+      effectOnHitChance: 0
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 0
+      damageMin_AOE: 0
+      damageMax_AOE: 0
+      attackRange_AOE: 0
+      cooldown_AOE: 0
+      critChance_AOE: 0
+      critMultiplier_AOE: 0
+      effectOnHitChance_AOE: 0
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 0
+      damageMin_Mine: 0
+      damageMax_Mine: 0
+      aoeRange_Mine: 0
+      cooldown_Mine: 0
+      critChance_Mine: 0
+      critMultiplier_Mine: 0
+      effectOnHitChance_Mine: 0
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 0
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 0
+      rscGain:
+      - 0
+      - 0
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 0}
+  - prefabID: 2
+    instanceID: -1
+    icon: {fileID: 21300020, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Critical Buff
+    desp: Increase target's critical chance by 50% for 10sec
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 0
+    stackable: 1
+    duration: 1
+    durationRemain: 1
+    effType: 0
+    stun: 0
+    stats:
+      editTurret: 0
+      editAOE: 0
+      editMine: 0
+      buildDuration: 0
+      sellDuration: 0
+      expToNextUpgrade: 10
+      cost:
+      - 0
+      - 0
+      sellValue: []
+      hp: 0
+      sh: 0
+      shRegen: 0
+      shStagger: 0
+      hpRate: 0
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 0
+      dodge: 0
+      dmgReduc: 0
+      critReduc: 0
+      hit: 0
+      damageMin: 0
+      damageMax: 0
+      attackRange: 0
+      aoeRange: 0
+      cooldown: 0
+      critChance: 0.5
+      critMultiplier: 0
+      effectOnHitChance: 0
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 0
+      damageMin_AOE: 0
+      damageMax_AOE: 0
+      attackRange_AOE: 0
+      cooldown_AOE: 0
+      critChance_AOE: 0.5
+      critMultiplier_AOE: 0
+      effectOnHitChance_AOE: 0
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 0
+      damageMin_Mine: 0
+      damageMax_Mine: 0
+      aoeRange_Mine: 0
+      cooldown_Mine: 0
+      critChance_Mine: 0.5
+      critMultiplier_Mine: 0
+      effectOnHitChance_Mine: 0
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 0
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 0
+      rscGain:
+      - 0
+      - 0
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 4108868961469662, guid: 0d6eab617ad0a334c8696f458cb2eb27,
+      type: 3}
+  - prefabID: 3
+    instanceID: -1
+    icon: {fileID: 21300046, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Damage Reduc
+    desp: Reduce damage taken by 30%
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 0
+    stackable: 0
+    duration: 1
+    durationRemain: 1
+    effType: 0
+    stun: 0
+    stats:
+      editTurret: 0
+      editAOE: 0
+      editMine: 0
+      buildDuration: 0
+      sellDuration: 0
+      expToNextUpgrade: 10
+      cost:
+      - 0
+      - 0
+      sellValue: []
+      hp: 0
+      sh: 0
+      shRegen: 0
+      shStagger: 0
+      hpRate: 0
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 0
+      dodge: 0
+      dmgReduc: 0.3
+      critReduc: 0
+      hit: 0
+      damageMin: 0
+      damageMax: 0
+      attackRange: 0
+      aoeRange: 0
+      cooldown: 0
+      critChance: 0
+      critMultiplier: 0
+      effectOnHitChance: 0
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 0
+      damageMin_AOE: 0
+      damageMax_AOE: 0
+      attackRange_AOE: 0
+      cooldown_AOE: 0
+      critChance_AOE: 0
+      critMultiplier_AOE: 0
+      effectOnHitChance_AOE: 0
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 0
+      damageMin_Mine: 0
+      damageMax_Mine: 0
+      aoeRange_Mine: 0
+      cooldown_Mine: 0
+      critChance_Mine: 0
+      critMultiplier_Mine: 0
+      effectOnHitChance_Mine: 0
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 0
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 0
+      rscGain:
+      - 0
+      - 0
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 4108868961469662, guid: 0d6eab617ad0a334c8696f458cb2eb27,
+      type: 3}
+  - prefabID: 6
+    instanceID: -1
+    icon: {fileID: 21300010, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Stun_.5sec
+    desp: Stun target for .5 sec
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 0
+    stackable: 0
+    duration: 0.5
+    durationRemain: 1
+    effType: 1
+    stun: 1
+    stats:
+      editTurret: 0
+      editAOE: 0
+      editMine: 0
+      buildDuration: 1
+      sellDuration: 1
+      expToNextUpgrade: 10
+      cost:
+      - 1
+      - 1
+      sellValue: []
+      hp: 1
+      sh: 1
+      shRegen: 1
+      shStagger: 1
+      hpRate: 1
+      shRate: 1
+      armorType: 0
+      damageType: 0
+      speed: 1
+      dodge: 1
+      dmgReduc: 1
+      critReduc: 1
+      hit: 1
+      damageMin: 1
+      damageMax: 1
+      attackRange: 1
+      aoeRange: 1
+      cooldown: 1
+      critChance: 1
+      critMultiplier: 1
+      effectOnHitChance: 1
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 1
+      damageMin_AOE: 1
+      damageMax_AOE: 1
+      attackRange_AOE: 1
+      cooldown_AOE: 1
+      critChance_AOE: 1
+      critMultiplier_AOE: 1
+      effectOnHitChance_AOE: 1
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 1
+      damageMin_Mine: 1
+      damageMax_Mine: 1
+      aoeRange_Mine: 1
+      cooldown_Mine: 1
+      critChance_Mine: 1
+      critMultiplier_Mine: 1
+      effectOnHitChance_Mine: 1
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 1
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 1
+      rscGain:
+      - 1
+      - 1
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 4441788593414716, guid: 262e841c96607cc40950b6af5b4310cd,
+      type: 3}
+  - prefabID: 7
+    instanceID: -1
+    icon: {fileID: 21300044, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Range Buff
+    desp: Increase target range by 40%
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 0
+    stackable: 0
+    duration: 1
+    durationRemain: 1
+    effType: 1
+    stun: 0
+    stats:
+      editTurret: 1
+      editAOE: 1
+      editMine: 0
+      buildDuration: 1
+      sellDuration: 1
+      expToNextUpgrade: 10
+      cost:
+      - 1
+      - 1
+      sellValue: []
+      hp: 1
+      sh: 1
+      shRegen: 1
+      shStagger: 1
+      hpRate: 1
+      shRate: 1
+      armorType: 0
+      damageType: 0
+      speed: 1
+      dodge: 1
+      dmgReduc: 1
+      critReduc: 1
+      hit: 1
+      damageMin: 1
+      damageMax: 1
+      attackRange: 1.4
+      aoeRange: 1
+      cooldown: 1
+      critChance: 1
+      critMultiplier: 1
+      effectOnHitChance: 1
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 1
+      damageMin_AOE: 1
+      damageMax_AOE: 1
+      attackRange_AOE: 1.25
+      cooldown_AOE: 1
+      critChance_AOE: 1
+      critMultiplier_AOE: 1
+      effectOnHitChance_AOE: 1
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 1
+      damageMin_Mine: 1
+      damageMax_Mine: 1
+      aoeRange_Mine: 1
+      cooldown_Mine: 1
+      critChance_Mine: 1
+      critMultiplier_Mine: 1
+      effectOnHitChance_Mine: 1
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 1.25
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 1
+      rscGain:
+      - 1
+      - 1
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 4108868961469662, guid: 0d6eab617ad0a334c8696f458cb2eb27,
+      type: 3}
+  - prefabID: 8
+    instanceID: -1
+    icon: {fileID: 21300010, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Stun_3sec
+    desp: Stun target for 3sec
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 0
+    stackable: 0
+    duration: 3
+    durationRemain: 1
+    effType: 1
+    stun: 1
+    stats:
+      editTurret: 0
+      editAOE: 1
+      editMine: 0
+      buildDuration: 1
+      sellDuration: 1
+      expToNextUpgrade: 10
+      cost:
+      - 1
+      - 1
+      sellValue: []
+      hp: 1
+      sh: 1
+      shRegen: 1
+      shStagger: 1
+      hpRate: 1
+      shRate: 1
+      armorType: 0
+      damageType: 0
+      speed: 1
+      dodge: 1
+      dmgReduc: 1
+      critReduc: 1
+      hit: 1
+      damageMin: 1
+      damageMax: 1
+      attackRange: 1
+      aoeRange: 1
+      cooldown: 1
+      critChance: 1
+      critMultiplier: 1
+      effectOnHitChance: 1
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 1
+      damageMin_AOE: 1
+      damageMax_AOE: 1
+      attackRange_AOE: 1
+      cooldown_AOE: 1
+      critChance_AOE: 1
+      critMultiplier_AOE: 1
+      effectOnHitChance_AOE: 1
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 1
+      damageMin_Mine: 1
+      damageMax_Mine: 1
+      aoeRange_Mine: 1
+      cooldown_Mine: 1
+      critChance_Mine: 1
+      critMultiplier_Mine: 1
+      effectOnHitChance_Mine: 1
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 1
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 1
+      rscGain:
+      - 1
+      - 1
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 4441788593414716, guid: 262e841c96607cc40950b6af5b4310cd,
+      type: 3}
+  copiedFromOldDB: 0

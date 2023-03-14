@@ -5,7 +5,31 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/TDTK/Scenes_Demo/Demo__Menu.unity
+    guid: 79417be01bbb3b1429fed949b027b141
+  - enabled: 1
+    path: Assets/TDTK/Scenes_Demo/Demo_BranchingPath.unity
+    guid: a6de94568a748c448be44b56023e1894
+  - enabled: 1
+    path: Assets/TDTK/Scenes_Demo/Demo_BranchingPath2.unity
+    guid: e03c9d44eb65abd42b89fc521066d619
+  - enabled: 1
+    path: Assets/TDTK/Scenes_Demo/Demo_Linear.unity
+    guid: 5dac11cbc97951240b9eb8085261d201
+  - enabled: 1
+    path: Assets/TDTK/Scenes_Demo/Demo_Linear_FreeForm.unity
+    guid: 4124d1d4cac138c449231ec612dc24ad
+  - enabled: 1
+    path: Assets/TDTK/Scenes_Demo/Demo_LinearLoop.unity
+    guid: 52c6487f7fb98994e8e6861c603b9ab8
+  - enabled: 1
+    path: Assets/TDTK/Scenes_Demo/Demo_Platform.unity
+    guid: 3894745b663f6eb4483f84fac7b1c07c
+  - enabled: 1
+    path: Assets/TDTK/Scenes_Demo/Example_PerkMenu.unity
+    guid: 668e72b459b0cdb4facff70fd2c6f6b6
   m_configObjects: {}

@@ -1,0 +1,352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1508690486591288}
+  m_IsPrefabParent: 1
+--- !u!1 &1508690486591288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4229817876060708}
+  - component: {fileID: 114676327093837526}
+  m_Layer: 0
+  m_Name: AbilityDB_Obsolete
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4229817876060708
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508690486591288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114676327093837526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508690486591288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9b6e9f61d982b4b9f04e17ebfacee7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rscIcon: {fileID: 21300058, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+  abilityList:
+  - prefabID: 0
+    instanceID: -1
+    icon: {fileID: 21300030, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Slow All
+    desp: Slow the movement speed of all hostile on the map by 75% for 5 sec
+    requireTargetSelection: 0
+    requireUnitAsTarget: 1
+    targetType: 0
+    useLimit: -1
+    useCount: 0
+    currentCD: 0
+    cost: 50
+    effectType: 0
+    effectDelay: 0
+    stats:
+      buildDuration: 0
+      sellDuration: 0
+      expToNextUpgrade: 0
+      cost: []
+      sellValue: []
+      hp: 0
+      sh: 0
+      shRegen: 0
+      shStagger: 0
+      hpRate: 0
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 0
+      dodge: 0
+      dmgReduc: 0
+      critReduc: 0
+      hit: 1
+      damageMin: 0
+      damageMax: 0
+      attackRange: 0
+      aoeRange: 0
+      cooldown: 30
+      critChance: 0
+      critMultiplier: 0
+      effectOnHitChance: 1
+      effectOnHitID: 0
+      overrideExistingEffect: 0
+      effectOnHitIDList: 00000000
+      rscGain: []
+    tgtSelectIndicator: {fileID: 0}
+    effectOnActivate:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    effectOnTarget:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 5
+    soundOnActivate: {fileID: 0}
+    hideInInspector: 0
+  - prefabID: 1
+    instanceID: -1
+    icon: {fileID: 21300022, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Strike
+    desp: Damage the target and all surounding units.
+    requireTargetSelection: 1
+    requireUnitAsTarget: 0
+    targetType: 0
+    useLimit: -1
+    useCount: 0
+    currentCD: 0
+    cost: 10
+    effectType: 0
+    effectDelay: 0
+    stats:
+      buildDuration: 0
+      sellDuration: 0
+      expToNextUpgrade: 10
+      cost:
+      - 0
+      - 0
+      sellValue: []
+      hp: 1
+      sh: 0
+      shRegen: 0
+      shStagger: 0
+      hpRate: 0
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 1
+      dodge: 0
+      dmgReduc: 0
+      critReduc: 0
+      hit: 1
+      damageMin: 6
+      damageMax: 10
+      attackRange: 1
+      aoeRange: 2
+      cooldown: 10
+      critChance: 0
+      critMultiplier: 0
+      effectOnHitChance: 0
+      effectOnHitID: 8
+      overrideExistingEffect: 0
+      effectOnHitIDList: 08000000
+      rscGain:
+      - 0
+      - 0
+    tgtSelectIndicator: {fileID: 0}
+    effectOnActivate:
+      obj: {fileID: 1010808949405068, guid: be5cff6f8521a6a4eb8dd90447f21503, type: 2}
+      autoDestroy: 1
+      duration: 1.5
+    effectOnTarget:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    soundOnActivate: {fileID: 0}
+    hideInInspector: 0
+  - prefabID: 2
+    instanceID: -1
+    icon: {fileID: 21300020, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Critical Buff
+    desp: All friendly tower gain 50% critical chance on attack for 10 sec.
+    requireTargetSelection: 1
+    requireUnitAsTarget: 0
+    targetType: 1
+    useLimit: -1
+    useCount: 0
+    currentCD: 0
+    cost: 50
+    effectType: 0
+    effectDelay: 0
+    stats:
+      buildDuration: 0
+      sellDuration: 0
+      expToNextUpgrade: 10
+      cost:
+      - 0
+      - 0
+      sellValue: []
+      hp: 1
+      sh: 0
+      shRegen: 0
+      shStagger: 0
+      hpRate: 0
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 1
+      dodge: 0
+      dmgReduc: 0
+      critReduc: 0
+      hit: 1
+      damageMin: 0
+      damageMax: 0
+      attackRange: 1
+      aoeRange: 2
+      cooldown: 40
+      critChance: 0
+      critMultiplier: 0
+      effectOnHitChance: 1
+      effectOnHitID: 2
+      overrideExistingEffect: 0
+      effectOnHitIDList: 02000000
+      rscGain:
+      - 0
+      - 0
+    tgtSelectIndicator: {fileID: 0}
+    effectOnActivate:
+      obj: {fileID: 1277453101507926, guid: 1caad7a84bacb004387a95147ee530b3, type: 2}
+      autoDestroy: 1
+      duration: 2
+    effectOnTarget:
+      obj: {fileID: 1461587712922754, guid: 6593236da2f573c4298337625d9a18e5, type: 2}
+      autoDestroy: 1
+      duration: 10
+    soundOnActivate: {fileID: 0}
+    hideInInspector: 0
+  - prefabID: 3
+    instanceID: -1
+    icon: {fileID: 21300048, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Repair
+    desp: Repair the target by 10 hitpoint
+    requireTargetSelection: 1
+    requireUnitAsTarget: 1
+    targetType: 1
+    useLimit: -1
+    useCount: 0
+    currentCD: 0
+    cost: 10
+    effectType: 0
+    effectDelay: 0
+    stats:
+      buildDuration: 0
+      sellDuration: 0
+      expToNextUpgrade: 10
+      cost:
+      - 0
+      - 0
+      sellValue: []
+      hp: 1
+      sh: 0
+      shRegen: 0
+      shStagger: 0
+      hpRate: 0
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 1
+      dodge: 0
+      dmgReduc: 0
+      critReduc: 0
+      hit: 1
+      damageMin: -10
+      damageMax: -10
+      attackRange: 1
+      aoeRange: 0
+      cooldown: 10
+      critChance: 0
+      critMultiplier: 0
+      effectOnHitChance: 1
+      effectOnHitID: -1
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      rscGain:
+      - 0
+      - 0
+    tgtSelectIndicator: {fileID: 4747208978708652, guid: e0633c181f37f874ebbf3f430c6e01bf,
+      type: 2}
+    effectOnActivate:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    effectOnTarget:
+      obj: {fileID: 1574806025308566, guid: 367f6acc7052b4649aac7afea45d90d6, type: 2}
+      autoDestroy: 1
+      duration: 1.5
+    soundOnActivate: {fileID: 0}
+    hideInInspector: 0
+  - prefabID: 4
+    instanceID: -1
+    icon: {fileID: 21300024, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    name: Stun
+    desp: Stun all targets within the effective range
+    requireTargetSelection: 1
+    requireUnitAsTarget: 0
+    targetType: 0
+    useLimit: -1
+    useCount: 0
+    currentCD: 0
+    cost: 25
+    effectType: 0
+    effectDelay: 0
+    stats:
+      buildDuration: 0
+      sellDuration: 0
+      expToNextUpgrade: 10
+      cost:
+      - 0
+      - 0
+      sellValue: []
+      hp: 1
+      sh: 0
+      shRegen: 0
+      shStagger: 0
+      hpRate: 0
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 1
+      dodge: 0
+      dmgReduc: 0
+      critReduc: 0
+      hit: 1
+      damageMin: 0
+      damageMax: 0
+      attackRange: 1
+      aoeRange: 1.5
+      cooldown: 20
+      critChance: 0
+      critMultiplier: 0
+      effectOnHitChance: 0
+      effectOnHitID: 8
+      overrideExistingEffect: 0
+      effectOnHitIDList: 08000000
+      rscGain:
+      - 0
+      - 0
+    tgtSelectIndicator: {fileID: 0}
+    effectOnActivate:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    effectOnTarget:
+      obj: {fileID: 1283697688278706, guid: 262e841c96607cc40950b6af5b4310cd, type: 2}
+      autoDestroy: 1
+      duration: 5
+    soundOnActivate: {fileID: 0}
+    hideInInspector: 1

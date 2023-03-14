@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: cd835b855903de74db05f6683d7c0f85
+labels:
+- spawn
+- powerup
+- chip
+- sid
+- retro
+- 8bit
+- USFX
+- mono
+timeCreated: 1451075344
+licenseType: Store
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 0
+    quality: 0
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  preloadAudioData: 1
+  loadInBackground: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

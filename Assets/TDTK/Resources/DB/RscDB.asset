@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1347701158a88b741916c3da5ae62780, type: 3}
+  m_Name: RscDB
+  m_EditorClassIdentifier: 
+  rscList:
+  - name: Cash
+    icon: {fileID: 21300060, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    enableCarry: 1
+  - name: Parts
+    icon: {fileID: 21300056, guid: d138993b3dd86764ba142a07cff82937, type: 3}
+    enableCarry: 1
+  copiedFromOldDB: 0
