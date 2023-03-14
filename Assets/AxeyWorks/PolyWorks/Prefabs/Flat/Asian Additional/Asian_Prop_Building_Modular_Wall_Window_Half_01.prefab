@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!64 &8239202374495901851
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942508714820967306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+--- !u!1001 &1942508714820934954
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_Name
+      value: Asian_Prop_Building_Modular_Wall_Window_Half_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ae2e27b9e768c5c4f9051db5bc898d00, type: 2}
+    - target: {fileID: 2300000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4d0d1782f433a5488672a8be49e51a5, type: 2}
+    - target: {fileID: 2300000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 67d8ff25c5fae2f428fb31598361d545, type: 2}
+    - target: {fileID: 2300000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04eedaff266252e4b959ac455117bae4, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3f66bc4d1fbf1541977cbbe89832e2b, type: 3}
+--- !u!1 &1942508714820967306 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b3f66bc4d1fbf1541977cbbe89832e2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1942508714820934954}
+  m_PrefabAsset: {fileID: 0}

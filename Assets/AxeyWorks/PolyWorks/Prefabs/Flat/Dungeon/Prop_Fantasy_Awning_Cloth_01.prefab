@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!64 &951465421130813396
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5749322267424933041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+--- !u!1001 &5749322267424899601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_Name
+      value: Prop_Fantasy_Awning_Cloth_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 29983c036ae5cd843afcdeef82916f6e, type: 2}
+    - target: {fileID: 2300000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 83374ed762d0e71438b22bd482a147d9, type: 2}
+    - target: {fileID: 2300000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a00a6a7d11392d4991ea970b05fa619, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0828d436cf475db4e8277c90a000f6ec, type: 3}
+--- !u!1 &5749322267424933041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 0828d436cf475db4e8277c90a000f6ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 5749322267424899601}
+  m_PrefabAsset: {fileID: 0}

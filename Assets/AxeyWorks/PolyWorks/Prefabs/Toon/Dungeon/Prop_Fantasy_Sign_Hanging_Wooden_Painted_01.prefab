@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!64 &111938420090733826
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4763787466513575619}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+--- !u!1001 &4763787466513475683
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_Name
+      value: Prop_Fantasy_Sign_Hanging_Wooden_Painted_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c8962946f9547b409340685bcfdc94b, type: 2}
+    - target: {fileID: 2300000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 58b8bdccee2fc6d429ba60a3933e5170, type: 2}
+    - target: {fileID: 2300000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: ac17444f89550824c9a150b4d06db130, type: 2}
+    - target: {fileID: 2300000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3bc127ab621bd304bbd349c992310b7f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08, type: 3}
+--- !u!1 &4763787466513575619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 22fb1dd7c8bf21648bc0a6c75fca6c08,
+    type: 3}
+  m_PrefabInstance: {fileID: 4763787466513475683}
+  m_PrefabAsset: {fileID: 0}
