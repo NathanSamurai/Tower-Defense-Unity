@@ -141,7 +141,7 @@ Transform:
   m_GameObject: {fileID: 1368356499209674}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9025045887635127472}
@@ -171,7 +171,7 @@ MonoBehaviour:
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.2
-  targetPoint: {fileID: 4380748054070366}
+  targetPoint: {fileID: 0}
   hp: 7
   sh: 0
   shStagger: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
   cooldownRsc: 0
   level: 0
   statsList:
-  - editTurret: 0
+  - editTurret: 1
     editAOE: 0
     editMine: 0
     buildDuration: 1.5
@@ -202,8 +202,8 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 0
-    damageMin: 0
-    damageMax: 0
+    damageMin: 1
+    damageMax: 1
     attackRange: 3
     aoeRange: 0
     cooldown: 1
@@ -239,7 +239,8 @@ MonoBehaviour:
     rscGain: []
   effectImmunityList: 
   attackTargetList: []
-  shootObject: {fileID: 0}
+  shootObject: {fileID: 114266115900946412, guid: cfbe6720ccbdd0947939be5cb4a41edc,
+    type: 3}
   shootPoint: []
   shootPointSpacing: 0.2
   shootEffObj_AOE:
@@ -425,19 +426,22 @@ MonoBehaviour:
       duration: 1.5
     activeVisualEffect: {fileID: 0}
   allEffectList: []
-  animatorT: {fileID: 0}
+  animatorT: {fileID: 9025045887635127472}
   clipIdle: {fileID: 0}
-  clipHit: {fileID: 0}
-  clipDestroyed: {fileID: 0}
-  clipAttack: {fileID: 0}
+  clipHit: {fileID: -256784162486639082, guid: 36733452ecb784940bcbfc140698c6b4, type: 3}
+  clipDestroyed: {fileID: 3988323045870148651, guid: 36733452ecb784940bcbfc140698c6b4,
+    type: 3}
+  clipAttack: {fileID: -4563379944364502377, guid: 36733452ecb784940bcbfc140698c6b4,
+    type: 3}
   animationAttackDelay: 0
-  clipMove: {fileID: 0}
+  clipMove: {fileID: 8375986166197498128, guid: 36733452ecb784940bcbfc140698c6b4,
+    type: 3}
   clipSpawn: {fileID: 0}
   clipDestination: {fileID: 0}
   clipConstruct: {fileID: 0}
   clipDeconstruct: {fileID: 0}
   creepType: 3
-  isTurret: 0
+  isTurret: 1
   isAOE: 0
   isSupport: 0
   isSpawner: 0
@@ -447,7 +451,7 @@ MonoBehaviour:
   subWpIdx: 0
   flying: 0
   faceTravelingDir: 1
-  snapToDir: 1
+  snapToDir: 0
   rotateSpeed: 5
   pathOffsetMode: 2
   stopToAttack: 1
@@ -588,6 +592,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3930698652600922828, guid: 5bd016f2d3dc2a646a5650951019812b,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: eb6f5234295bd7943acdab6777e9408d, type: 2}
     - target: {fileID: 4201238641081696555, guid: 5bd016f2d3dc2a646a5650951019812b,
         type: 3}
       propertyPath: m_Name

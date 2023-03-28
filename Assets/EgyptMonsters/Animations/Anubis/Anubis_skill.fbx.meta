@@ -1,0 +1,346 @@
+fileFormatVersion: 2
+guid: beed1b9bc9f25124eb64fd87868592dc
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: armo
+    100004: Body
+    100006: joint1
+    100008: jtBn_head
+    100010: jtBn_Jaw
+    100012: jtBn_l_ankle
+    100014: jtBn_l_clavicle
+    100016: jtBn_l_down_arm
+    100018: jtBn_l_down_elbow
+    100020: jtBn_l_down_index
+    100022: jtBn_l_down_index1
+    100024: jtBn_l_down_index2
+    100026: jtBn_l_down_little
+    100028: jtBn_l_down_little1
+    100030: jtBn_l_down_little2
+    100032: jtBn_l_down_mid
+    100034: jtBn_l_down_mid1
+    100036: jtBn_l_down_mid2
+    100038: jtBn_l_down_thumb
+    100040: jtBn_l_down_thumb1
+    100042: jtBn_l_down_thumb2
+    100044: jtBn_l_down_twist
+    100046: jtBn_l_DownHand_Weapon
+    100048: jtBn_l_hip
+    100050: jtBn_l_knee
+    100052: jtBn_l_up_arm
+    100054: jtBn_l_up_elbow
+    100056: jtBn_l_up_index
+    100058: jtBn_l_up_index1
+    100060: jtBn_l_up_index2
+    100062: jtBn_l_up_little
+    100064: jtBn_l_up_little1
+    100066: jtBn_l_up_little2
+    100068: jtBn_l_up_mid
+    100070: jtBn_l_up_mid1
+    100072: jtBn_l_up_mid2
+    100074: jtBn_l_up_thumb
+    100076: jtBn_l_up_thumb1
+    100078: jtBn_l_up_thumb2
+    100080: jtBn_l_up_twist
+    100082: jtBn_l_upHand_Weapon
+    100084: jtBn_neck
+    100086: jtBn_r_ankle
+    100088: jtBn_r_clavicle
+    100090: jtBn_r_down_arm
+    100092: jtBn_r_down_elbow
+    100094: jtBn_r_down_index
+    100096: jtBn_r_down_index1
+    100098: jtBn_r_down_index2
+    100100: jtBn_r_down_little
+    100102: jtBn_r_down_little1
+    100104: jtBn_r_down_little2
+    100106: jtBn_r_down_mid
+    100108: jtBn_r_down_mid1
+    100110: jtBn_r_down_mid2
+    100112: jtBn_r_down_thumb
+    100114: jtBn_r_down_thumb1
+    100116: jtBn_r_down_thumb2
+    100118: jtBn_r_down_twist
+    100120: jtBn_r_DownHand_Weapon
+    100122: jtBn_r_hip
+    100124: jtBn_r_knee
+    100126: jtBn_r_up_arm
+    100128: jtBn_r_up_elbow
+    100130: jtBn_r_up_index
+    100132: jtBn_r_up_index1
+    100134: jtBn_r_up_index2
+    100136: jtBn_r_up_little
+    100138: jtBn_r_up_little1
+    100140: jtBn_r_up_little2
+    100142: jtBn_r_up_mid
+    100144: jtBn_r_up_mid1
+    100146: jtBn_r_up_mid2
+    100148: jtBn_r_up_thumb
+    100150: jtBn_r_up_thumb1
+    100152: jtBn_r_up_thumb2
+    100154: jtBn_r_up_twist
+    100156: jtBn_r_upHand_Weapon
+    100158: jtBn_spline_
+    100160: jtBn_spline_1
+    100162: jtBn_spline_2
+    100164: Mesh
+    100166: polySurface217
+    100168: polySurface218
+    100170: polySurface239
+    100172: polySurface240
+    100174: polySurface374
+    100176: polySurface375
+    400000: //RootNode
+    400002: armo
+    400004: Body
+    400006: joint1
+    400008: jtBn_head
+    400010: jtBn_Jaw
+    400012: jtBn_l_ankle
+    400014: jtBn_l_clavicle
+    400016: jtBn_l_down_arm
+    400018: jtBn_l_down_elbow
+    400020: jtBn_l_down_index
+    400022: jtBn_l_down_index1
+    400024: jtBn_l_down_index2
+    400026: jtBn_l_down_little
+    400028: jtBn_l_down_little1
+    400030: jtBn_l_down_little2
+    400032: jtBn_l_down_mid
+    400034: jtBn_l_down_mid1
+    400036: jtBn_l_down_mid2
+    400038: jtBn_l_down_thumb
+    400040: jtBn_l_down_thumb1
+    400042: jtBn_l_down_thumb2
+    400044: jtBn_l_down_twist
+    400046: jtBn_l_DownHand_Weapon
+    400048: jtBn_l_hip
+    400050: jtBn_l_knee
+    400052: jtBn_l_up_arm
+    400054: jtBn_l_up_elbow
+    400056: jtBn_l_up_index
+    400058: jtBn_l_up_index1
+    400060: jtBn_l_up_index2
+    400062: jtBn_l_up_little
+    400064: jtBn_l_up_little1
+    400066: jtBn_l_up_little2
+    400068: jtBn_l_up_mid
+    400070: jtBn_l_up_mid1
+    400072: jtBn_l_up_mid2
+    400074: jtBn_l_up_thumb
+    400076: jtBn_l_up_thumb1
+    400078: jtBn_l_up_thumb2
+    400080: jtBn_l_up_twist
+    400082: jtBn_l_upHand_Weapon
+    400084: jtBn_neck
+    400086: jtBn_r_ankle
+    400088: jtBn_r_clavicle
+    400090: jtBn_r_down_arm
+    400092: jtBn_r_down_elbow
+    400094: jtBn_r_down_index
+    400096: jtBn_r_down_index1
+    400098: jtBn_r_down_index2
+    400100: jtBn_r_down_little
+    400102: jtBn_r_down_little1
+    400104: jtBn_r_down_little2
+    400106: jtBn_r_down_mid
+    400108: jtBn_r_down_mid1
+    400110: jtBn_r_down_mid2
+    400112: jtBn_r_down_thumb
+    400114: jtBn_r_down_thumb1
+    400116: jtBn_r_down_thumb2
+    400118: jtBn_r_down_twist
+    400120: jtBn_r_DownHand_Weapon
+    400122: jtBn_r_hip
+    400124: jtBn_r_knee
+    400126: jtBn_r_up_arm
+    400128: jtBn_r_up_elbow
+    400130: jtBn_r_up_index
+    400132: jtBn_r_up_index1
+    400134: jtBn_r_up_index2
+    400136: jtBn_r_up_little
+    400138: jtBn_r_up_little1
+    400140: jtBn_r_up_little2
+    400142: jtBn_r_up_mid
+    400144: jtBn_r_up_mid1
+    400146: jtBn_r_up_mid2
+    400148: jtBn_r_up_thumb
+    400150: jtBn_r_up_thumb1
+    400152: jtBn_r_up_thumb2
+    400154: jtBn_r_up_twist
+    400156: jtBn_r_upHand_Weapon
+    400158: jtBn_spline_
+    400160: jtBn_spline_1
+    400162: jtBn_spline_2
+    400164: Mesh
+    400166: polySurface217
+    400168: polySurface218
+    400170: polySurface239
+    400172: polySurface240
+    400174: polySurface374
+    400176: polySurface375
+    2100000: Char_material
+    2100002: Default_Material
+    4300000: polySurface217
+    4300002: polySurface218
+    4300004: polySurface239
+    4300006: polySurface240
+    4300008: Body
+    4300010: armo
+    4300012: polySurface374
+    4300014: polySurface375
+    7400000: Skill
+    9500000: //RootNode
+    13700000: armo
+    13700002: Body
+    13700004: polySurface217
+    13700006: polySurface218
+    13700008: polySurface239
+    13700010: polySurface240
+    13700012: polySurface374
+    13700014: polySurface375
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.0001
+    animationPositionError: 0.0001
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Skill
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 138
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.022251312
+        functionName: TweenCamera
+        data: 10|13.5|0.5
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.83966005
+        functionName: TweenCamera
+        data: 0.5
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.60654444
+        functionName: DealDamage
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6341623
+        functionName: DealDamage
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.61688477
+        functionName: DealDamage
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 15
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
