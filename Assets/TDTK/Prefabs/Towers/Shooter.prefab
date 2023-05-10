@@ -241,7 +241,7 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   shootEffectDuration: 0
-  turretPivot: {fileID: 0}
+  turretPivot: {fileID: 5158233495476746246}
   barrelPivot: {fileID: 2369907595084199762}
   aimInXAxis: 1
   snapAiming: 1
@@ -411,8 +411,8 @@ MonoBehaviour:
       duration: 1.5
     activeVisualEffect: {fileID: 0}
   allEffectList: []
-  animatorT: {fileID: 0}
-  clipIdle: {fileID: 0}
+  animatorT: {fileID: 3882864274657147754}
+  clipIdle: {fileID: 7400000, guid: b499d97251b461b41a77586b523dc961, type: 2}
   clipHit: {fileID: 0}
   clipDestroyed: {fileID: 0}
   clipAttack: {fileID: 0}
@@ -949,9 +949,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5158233495477036070}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: ba79c8f2c2f228645abffe6431a5bd5d, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eb6f5234295bd7943acdab6777e9408d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1413,7 +1413,7 @@ Animator:
   m_GameObject: {fileID: 8354118879058990971}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bc6513c3d891d3c459d926ac2163325d, type: 2}
+  m_Controller: {fileID: 9100000, guid: eb6f5234295bd7943acdab6777e9408d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

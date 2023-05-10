@@ -342,7 +342,7 @@ MonoBehaviour:
     activeVisualEffect: {fileID: 0}
   allEffectList: []
   animatorT: {fileID: 6439523440328360502}
-  clipIdle: {fileID: 5361153175256386553, guid: 26b3eea5ec2623c4686bfade5b6ed676,
+  clipIdle: {fileID: 8520957437536398688, guid: 93743384a3a362949961bde84bd67850,
     type: 3}
   clipHit: {fileID: -5820232839456985624, guid: 26b3eea5ec2623c4686bfade5b6ed676,
     type: 3}

@@ -343,7 +343,7 @@ MonoBehaviour:
     activeVisualEffect: {fileID: 0}
   allEffectList: []
   animatorT: {fileID: 3369187380314093588}
-  clipIdle: {fileID: 7400002, guid: 7be8278abf9465e44904963e43ecd654, type: 3}
+  clipIdle: {fileID: 7400004, guid: 7be8278abf9465e44904963e43ecd654, type: 3}
   clipHit: {fileID: 7400012, guid: 7be8278abf9465e44904963e43ecd654, type: 3}
   clipDestroyed: {fileID: 7400014, guid: 7be8278abf9465e44904963e43ecd654, type: 3}
   clipAttack: {fileID: 7400006, guid: 7be8278abf9465e44904963e43ecd654, type: 3}
