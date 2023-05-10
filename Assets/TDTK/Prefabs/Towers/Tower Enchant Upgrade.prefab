@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1033535460803082
+--- !u!1 &1449098956332476
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,82 +8,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4754821197074078}
-  - component: {fileID: 33065081902363458}
-  - component: {fileID: 23747808735834918}
+  - component: {fileID: 4563459436706890}
   m_Layer: 0
-  m_Name: TowerTurret3
+  m_Name: TargetPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4754821197074078
+--- !u!4 &4563459436706890
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033535460803082}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.019999912, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.100000106}
+  m_GameObject: {fileID: 1449098956332476}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 2.8571427, y: 2.8571427, z: 2.8571427}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4399252010663336}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
---- !u!33 &33065081902363458
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033535460803082}
-  m_Mesh: {fileID: 4300068, guid: afb06ef5a371cb14fa1a534801a2fd8a, type: 3}
---- !u!23 &23747808735834918
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033535460803082}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 02644797d6d7d9e41b29e39eccd1fd61, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1136647811518820
+  m_Father: {fileID: 4697043576728400}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1831089129482660
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,55 +39,55 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4600742426814438}
-  - component: {fileID: 114544440111874162}
-  - component: {fileID: 135443623375571478}
+  - component: {fileID: 4697043576728400}
+  - component: {fileID: 114825332541157422}
+  - component: {fileID: 135209019476006222}
   m_Layer: 28
-  m_Name: Tower_Mine
+  m_Name: Tower Enchant Upgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4600742426814438
+--- !u!4 &4697043576728400
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136647811518820}
+  m_GameObject: {fileID: 1831089129482660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 0, z: 3.5}
+  m_LocalPosition: {x: -3.5, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4399252010663336}
-  - {fileID: 4249552940114186}
+  - {fileID: 68077186699482206}
+  - {fileID: 4563459436706890}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114544440111874162
+--- !u!114 &114825332541157422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136647811518820}
+  m_GameObject: {fileID: 1831089129482660}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aad507a3dcc61094483b4a428cf99d91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resetTargetOnAttack: 0
-  prefabID: 6
+  prefabID: 0
   instanceID: -1
-  unitName: Mine
-  icon: {fileID: 21300014, guid: c1bf8f531a58e5a43a7677bc162c964a, type: 3}
-  desp: Explode when approach by a creep, causing high AOE damage
+  unitName: Enchant Tower II
+  icon: {fileID: 21300002, guid: c1bf8f531a58e5a43a7677bc162c964a, type: 3}
+  desp: A single target tower with chance to deal critical damage with each attack.
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25
-  targetPoint: {fileID: 0}
+  targetPoint: {fileID: 4563459436706890}
   hp: 10
   sh: 10
   shStagger: 0
@@ -149,19 +97,19 @@ MonoBehaviour:
   cooldownRsc: 0
   level: 0
   statsList:
-  - editTurret: 0
+  - editTurret: 1
     editAOE: 1
-    editMine: 1
+    editMine: 0
     buildDuration: 1.5
     sellDuration: 0.5
     expToNextUpgrade: 10
     cost:
-    - 6
+    - 15
     - 0
     sellValue:
-    - 6
+    - 15
     - 0
-    hp: 1
+    hp: 100
     sh: 0
     shRegen: 0
     shStagger: 0
@@ -174,16 +122,16 @@ MonoBehaviour:
     dmgReduc: 0
     critReduc: 0
     hit: 1
-    damageMin: 10
-    damageMax: 15
-    attackRange: 5
+    damageMin: 1
+    damageMax: 2
+    attackRange: 10
     aoeRange: 1
-    cooldown: 4
+    cooldown: 0.7
     critChance: 0
-    critMultiplier: 0
+    critMultiplier: 1.5
     effectOnHitChance: 1
     overrideExistingEffect: 0
-    effectOnHitIDList: 
+    effectOnHitIDList: 05000000
     hit_AOE: 1
     damageMin_AOE: 2
     damageMax_AOE: 2
@@ -195,9 +143,9 @@ MonoBehaviour:
     overrideExistingEffect_AOE: 0
     effectOnHitIDList_AOE: 
     hit_Mine: 1
-    damageMin_Mine: 5
-    damageMax_Mine: 8
-    aoeRange_Mine: 2
+    damageMin_Mine: 2
+    damageMax_Mine: 2
+    aoeRange_Mine: 0
     cooldown_Mine: 1
     critChance_Mine: 0
     critMultiplier_Mine: 0
@@ -213,10 +161,11 @@ MonoBehaviour:
     - 0
   effectImmunityList: 
   attackTargetList: []
-  shootObject: {fileID: 114266115900946412, guid: 09a463b997518ca4ba2b0574c697a0c1,
+  shootObject: {fileID: 114917850592720432, guid: 750475b1eeb3e7b4bbf6522e9fffdb01,
     type: 3}
-  shootPoint: []
-  shootPointSpacing: 0.2
+  shootPoint:
+  - {fileID: 0}
+  shootPointSpacing: 0.1
   shootEffObj_AOE:
     obj: {fileID: 0}
     autoDestroy: 1
@@ -239,7 +188,7 @@ MonoBehaviour:
   targetMode: 0
   targetCountPerAttack: 1
   useLOSTargeting: 0
-  targetingFov: 360
+  targetingFov: 0
   targetingDir: 0
   activeEffectMod:
     prefabID: -1
@@ -411,12 +360,12 @@ MonoBehaviour:
   clipDestination: {fileID: 0}
   clipConstruct: {fileID: 0}
   clipDeconstruct: {fileID: 0}
-  towerType: 4
-  isTurret: 0
-  isAOE: 0
+  towerType: 0
+  isTurret: 1
+  isAOE: 1
   isSupport: 0
   isResource: 0
-  isMine: 1
+  isMine: 0
   targetGroup: 0
   activeBetweenWave: 0
   isPreview: 0
@@ -440,7 +389,7 @@ MonoBehaviour:
     autoDestroy: 1
     duration: 1.5
   effectDestroyed:
-    obj: {fileID: 1010808949405068, guid: be5cff6f8521a6a4eb8dd90447f21503, type: 3}
+    obj: {fileID: 0}
     autoDestroy: 1
     duration: 1.5
   soundBuilding: {fileID: 0}
@@ -456,79 +405,91 @@ MonoBehaviour:
   nodeID: 0
   unlockUpgradeViaPerk: 0
   upgradeTowerList: []
---- !u!135 &135443623375571478
+--- !u!135 &135209019476006222
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136647811518820}
+  m_GameObject: {fileID: 1831089129482660}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1351676702565996
-GameObject:
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!1001 &8019596140791184392
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4249552940114186}
-  m_Layer: 0
-  m_Name: TargetPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4249552940114186
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4697043576728400}
+    m_Modifications:
+    - target: {fileID: 8050905495431804022, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_Name
+      value: Turret Enchanter v2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c01916c2f79e02e47be77df08a90b511, type: 3}
+--- !u!4 &68077186699482206 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8050905495431833686, guid: c01916c2f79e02e47be77df08a90b511,
+    type: 3}
+  m_PrefabInstance: {fileID: 8019596140791184392}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1351676702565996}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.8571427, y: 2.8571427, z: 2.8571427}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4600742426814438}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1386795908451606
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4399252010663336}
-  m_Layer: 0
-  m_Name: StaticMesh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4399252010663336
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1386795908451606}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4754821197074078}
-  m_Father: {fileID: 4600742426814438}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
