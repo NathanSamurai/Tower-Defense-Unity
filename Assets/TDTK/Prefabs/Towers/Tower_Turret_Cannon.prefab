@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resetTargetOnAttack: 0
-  prefabID: 1
+  prefabID: -1
   instanceID: -1
   unitName: Cannon Tower
   icon: {fileID: 21300000, guid: c1bf8f531a58e5a43a7677bc162c964a, type: 3}

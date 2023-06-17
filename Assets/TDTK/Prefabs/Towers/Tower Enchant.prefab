@@ -181,7 +181,7 @@ MonoBehaviour:
   prefabID: 10
   instanceID: -1
   unitName: Enchant Tower
-  icon: {fileID: 21300002, guid: c1bf8f531a58e5a43a7677bc162c964a, type: 3}
+  icon: {fileID: 21300000, guid: 1080a5ef94bbaf245b2729db3f394d07, type: 3}
   desp: A single target tower with chance to deal critical damage with each attack.
   canBeAttacked: 1
   canBeTargeted: 1
@@ -565,8 +565,7 @@ MonoBehaviour:
   buildPlatform: {fileID: 0}
   nodeID: 0
   unlockUpgradeViaPerk: 0
-  upgradeTowerList:
-  - {fileID: 114825332541157422, guid: 828707edf1a8a4d49b4eabf37b53b484, type: 3}
+  upgradeTowerList: []
 --- !u!135 &135209019476006222
 SphereCollider:
   m_ObjectHideFlags: 0

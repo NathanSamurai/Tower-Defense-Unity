@@ -82,7 +82,7 @@ MonoBehaviour:
   prefabID: 12
   instanceID: -1
   unitName: Generator
-  icon: {fileID: 21300010, guid: c1bf8f531a58e5a43a7677bc162c964a, type: 3}
+  icon: {fileID: 21300000, guid: efac9f9678ab56b41be9583415112afa, type: 3}
   desp: Generate resource over time
   canBeAttacked: 1
   canBeTargeted: 1

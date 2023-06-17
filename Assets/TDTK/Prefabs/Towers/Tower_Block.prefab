@@ -132,7 +132,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201197389169190}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -199,6 +199,7 @@ Transform:
   m_Children:
   - {fileID: 4714657385383682}
   - {fileID: 4397342225876484}
+  - {fileID: 2968520645202989127}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -218,7 +219,7 @@ MonoBehaviour:
   prefabID: 7
   instanceID: -1
   unitName: Block
-  icon: {fileID: 21300012, guid: c1bf8f531a58e5a43a7677bc162c964a, type: 3}
+  icon: {fileID: 21300000, guid: 048775509020f4f439355f88b5c9c9a1, type: 3}
   desp: Just a structure to occupy a space on the grid.
   canBeAttacked: 0
   canBeTargeted: 0
@@ -540,8 +541,7 @@ MonoBehaviour:
   buildPlatform: {fileID: 0}
   nodeID: 0
   unlockUpgradeViaPerk: 0
-  upgradeTowerList:
-  - {fileID: 114424032017952368, guid: bfb02c1cfad601042bd343620d28e1ef, type: 3}
+  upgradeTowerList: []
 --- !u!135 &135057695828876866
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -618,3 +618,93 @@ Transform:
   m_Father: {fileID: 4537856016892564}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7153304762067050516
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4537856016892564}
+    m_Modifications:
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758536086258046113, guid: f7f67f8c46f537447a0e552b0e3a455f,
+        type: 3}
+      propertyPath: m_Name
+      value: Block
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f67f8c46f537447a0e552b0e3a455f, type: 3}
+--- !u!4 &2968520645202989127 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5366013686649532499, guid: f7f67f8c46f537447a0e552b0e3a455f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7153304762067050516}
+  m_PrefabAsset: {fileID: 0}
