@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 4697043576728400}
   - component: {fileID: 114825332541157422}
   - component: {fileID: 135209019476006222}
+  - component: {fileID: 7031224947230273269}
   m_Layer: 28
   m_Name: Shooter
   m_TagString: Untagged
@@ -460,6 +461,16 @@ MonoBehaviour:
   soundUpgraded: {fileID: 0}
   soundSold: {fileID: 0}
   soundDestroyed: {fileID: 0}
+  TowerSold:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4e3b24078647c7a40bdf6af4743553ee,
+      type: 2}
+  TowerBuilt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7b785d2fa1c05dd46abf9150a20806fd,
+      type: 2}
   radius: 0.5
   supportTgtList: []
   supportSrcList: []
@@ -480,6 +491,28 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &7031224947230273269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831089129482660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2d886ae7107b848a36931959520462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1836840792755817161
 GameObject:
   m_ObjectHideFlags: 0
