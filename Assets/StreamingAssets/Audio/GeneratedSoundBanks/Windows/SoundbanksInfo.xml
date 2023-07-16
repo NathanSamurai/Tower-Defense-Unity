@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1C6D380E-0383-15FF-AA35-CFD2363F07D6}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2171127646" Name="Hall_Conversation" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1656394493" Name="BigReverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2171127646"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3092587493" Name="Pause">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3991942870" Name="Music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2555741448" Name="Finish"/>
+						<State Id="2764240573" Name="Combat"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AE282BC5-3B91-01E9-1E41-ED2D8D7BCA23}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="21932661" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockFall 6032_93_2.wav</ShortName>
+					<CachePath>SFX/RockFall 6032_93_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="71025920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VaeyanIII,massager,osscilations,switch,hispeed,mechanical,electrical,50Hz,hum,vibration,loopable.wav</ShortName>
+					<CachePath>SFX/VaeyanIII,massager,osscilations,switch,hispeed,mechanical,electrical,50Hz,hum,vibration,loopable_5664F5C5.wem</CachePath>
+				</File>
+				<File Id="71893868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ANIMAL FARM Pig, Baby, Scream, Shrill, City Street 01.wav</ShortName>
+					<CachePath>SFX/ANIMAL FARM Pig, Baby, Scream, Shrill, City Street 01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="72581133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PM_RI_Designed_7 Rocks Impact Hit Big LFE Heavy Designed.wav</ShortName>
+					<CachePath>SFX/PM_RI_Designed_7 Rocks Impact Hit Big LFE Heavy Designed_10C4C929.wem</CachePath>
+				</File>
+				<File Id="74498138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CANNON Plasma Shot Tonal High 10.wav</ShortName>
+					<CachePath>SFX/CANNON Plasma Shot Tonal High 10_51135F9B.wem</CachePath>
+				</File>
+				<File Id="93037106" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steampunk Weapons - Shotgun 2 - Shot - 03.wav</ShortName>
+					<CachePath>SFX/Steampunk Weapons - Shotgun 2 - Shot - 03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="105573546" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootstepsDirt 6016_88_1.wav</ShortName>
+					<CachePath>SFX/FootstepsDirt 6016_88_1_D72B4048.wem</CachePath>
+				</File>
+				<File Id="136575788" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootstepsDirt 6016_88_1.wav</ShortName>
+					<CachePath>SFX/FootstepsDirt 6016_88_1_2864AC57.wem</CachePath>
+				</File>
+				<File Id="162959372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drone,Cyber,Deep,Pulse,Disturbing,Invasive,Loop.wav</ShortName>
+					<CachePath>SFX/Drone,Cyber,Deep,Pulse,Disturbing,Invasive,Loop_71436586.wem</CachePath>
+				</File>
+				<File Id="221298946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootstepsDirt 6016_88_1.wav</ShortName>
+					<CachePath>SFX/FootstepsDirt 6016_88_1_913B07AF.wem</CachePath>
+				</File>
+				<File Id="223829313" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CasinoSlotMachine 6010_69_1.wav</ShortName>
+					<CachePath>SFX/CasinoSlotMachine 6010_69_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="235777001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bluezone-BC0214-beep-mine-explosion-002(2).wav</ShortName>
+					<CachePath>SFX/Bluezone-BC0214-beep-mine-explosion-002(2)_91D8BEC4.wem</CachePath>
+				</File>
+				<File Id="252645366" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ElectricitySpark 6039_61_9.wav</ShortName>
+					<CachePath>SFX/ElectricitySpark 6039_61_9_7514B039.wem</CachePath>
+				</File>
+				<File Id="276201603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Borax,Impact,Slime,Gore,Various22.wav</ShortName>
+					<CachePath>SFX/Borax,Impact,Slime,Gore,Various22_10C4C929.wem</CachePath>
+				</File>
+				<File Id="308195721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ElectricitySpark 6039_62_3.wav</ShortName>
+					<CachePath>SFX/ElectricitySpark 6039_62_3_5F42F8EA.wem</CachePath>
+				</File>
+				<File Id="371038760" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootstepsDirt 6016_88_1.wav</ShortName>
+					<CachePath>SFX/FootstepsDirt 6016_88_1_C94FC4FF.wem</CachePath>
+				</File>
+				<File Id="440912395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb,Construction,Int,Muffled,Power hammer,Drops,Impacts.wav</ShortName>
+					<CachePath>SFX/Amb,Construction,Int,Muffled,Power hammer,Drops,Impacts_31C8CD95.wem</CachePath>
+				</File>
+				<File Id="446255979" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Death_04.wav</ShortName>
+					<CachePath>SFX/Death_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="452902770" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootstepsDirt 6016_88_1.wav</ShortName>
+					<CachePath>SFX/FootstepsDirt 6016_88_1_D2405D9F.wem</CachePath>
+				</File>
+				<File Id="453582365" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Monster Footsteps 01.wav</ShortName>
+					<CachePath>SFX/Monster Footsteps 01_A8C159F0.wem</CachePath>
+				</File>
+				<File Id="495602436" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tower Defense Start.wav</ShortName>
+					<CachePath>SFX/Tower Defense Start_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="554089665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Borax,Impact,Slime,Gore,Various63.wav</ShortName>
+					<CachePath>SFX/Borax,Impact,Slime,Gore,Various63_10C4C929.wem</CachePath>
+				</File>
+				<File Id="591445986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMBIENCE Desert Soft Day(2).wav</ShortName>
+					<CachePath>SFX/AMBIENCE Desert Soft Day(2)_C64E72A9.wem</CachePath>
+				</File>
+				<File Id="594728780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockFall 6032_93_2(2).wav</ShortName>
+					<CachePath>SFX/RockFall 6032_93_2(2)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="626141150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GEARBOX - DESIGNED - LARGE - Original Helmsworth Cylinder Press 01.wav</ShortName>
+					<CachePath>SFX/GEARBOX - DESIGNED - LARGE - Original Helmsworth Cylinder Press 01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="643819459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lighting_Hit_03.wav</ShortName>
+					<CachePath>SFX/Lighting_Hit_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="665527522" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PM_MMM_Rhythmical_Movement_Tick_LoopContrustcionKit_21.wav</ShortName>
+					<CachePath>SFX/PM_MMM_Rhythmical_Movement_Tick_LoopContrustcionKit_21_10C4C929.wem</CachePath>
+				</File>
+				<File Id="667024620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Leeks,Break,Bone,Crack,Body,Arm13.wav</ShortName>
+					<CachePath>SFX/Leeks,Break,Bone,Crack,Body,Arm13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="687440900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>G4F SFX11 - ExoInterface - Cursor Click 25.wav</ShortName>
+					<CachePath>SFX/G4F SFX11 - ExoInterface - Cursor Click 25_10C4C929.wem</CachePath>
+				</File>
+				<File Id="703066660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Work,Hammer,Wall,Concrete Block,Sledgehammers,Pair,Hit,Debris,Patient - very faint background construction.wav</ShortName>
+					<CachePath>SFX/Work,Hammer,Wall,Concrete Block,Sledgehammers,Pair,Hit,Debris,Patient - very faint background construction_D1A09252.wem</CachePath>
+				</File>
+				<File Id="704891391" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MONSTER Yeti breathe 05.wav</ShortName>
+					<CachePath>SFX/MONSTER Yeti breathe 05_0F396B9F.wem</CachePath>
+				</File>
+				<File Id="708764159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ElectricitySpark 6039_62_2.wav</ShortName>
+					<CachePath>SFX/ElectricitySpark 6039_62_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="726331736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>EFX SD Female Ragging Creature 03 A.wav</ShortName>
+					<CachePath>SFX/EFX SD Female Ragging Creature 03 A_10C4C929.wem</CachePath>
+				</File>
+				<File Id="752394969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tower Defense Finish.wav</ShortName>
+					<CachePath>SFX/Tower Defense Finish_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="752541459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Epic Movie Trailer Huge Shot 2.wav</ShortName>
+					<CachePath>SFX/Epic Movie Trailer Huge Shot 2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="756446293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Waterphone, Clock, Ticking, Tick, Tock, Click, Rhythm, Time, Watch, Countdown.wav</ShortName>
+					<CachePath>SFX/Waterphone, Clock, Ticking, Tick, Tock, Click, Rhythm, Time, Watch, Countdown_20980F15.wem</CachePath>
+				</File>
+				<File Id="789879014" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>War_UI_Source_Stapler_Remover_Click_4.wav</ShortName>
+					<CachePath>SFX/War_UI_Source_Stapler_Remover_Click_4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802156551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lighting_Hit_02.wav</ShortName>
+					<CachePath>SFX/Lighting_Hit_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="826182308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Borax,Impact,Slime,Gore,Various05.wav</ShortName>
+					<CachePath>SFX/Borax,Impact,Slime,Gore,Various05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="860795904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockFall 6032_93_2(4).wav</ShortName>
+					<CachePath>SFX/RockFall 6032_93_2(4)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="881131733" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GORE - Head_Explode_6.wav</ShortName>
+					<CachePath>SFX/GORE - Head_Explode_6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="891956026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosive 1 v2 [DOD 130303].flac.wav</ShortName>
+					<CachePath>SFX/Explosive 1 v2 [DOD 130303].flac_1F9316C9.wem</CachePath>
+				</File>
+				<File Id="916854383" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tower Defense Main.wav</ShortName>
+					<CachePath>SFX/Tower Defense Main_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="937531035" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ElectricitySpark 6039_62_1.wav</ShortName>
+					<CachePath>SFX/ElectricitySpark 6039_62_1_EE8BE816.wem</CachePath>
+				</File>
+				<File Id="940511555" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HELLHOUND Idle Weak 03.wav</ShortName>
+					<CachePath>SFX/HELLHOUND Idle Weak 03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="966177410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lighting_Hit_01.wav</ShortName>
+					<CachePath>SFX/Lighting_Hit_01_F33A808C.wem</CachePath>
+				</File>
+				<File Id="971497490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootstepsDirt 6016_88_1.wav</ShortName>
+					<CachePath>SFX/FootstepsDirt 6016_88_1_74A1BB79.wem</CachePath>
+				</File>
+				<File Id="992387451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>262703 - Drop Couple of Gold Coins on Coins 03.wav</ShortName>
+					<CachePath>SFX/262703 - Drop Couple of Gold Coins on Coins 03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="994177853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Borax,Impact,Slime,Gore,Various16.wav</ShortName>
+					<CachePath>SFX/Borax,Impact,Slime,Gore,Various16_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1012224955" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PM_RI_Designed_19 Rocks Impact Hit Big LFE Heavy Designed.wav</ShortName>
+					<CachePath>SFX/PM_RI_Designed_19 Rocks Impact Hit Big LFE Heavy Designed_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1014663018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RockFall 6032_93_2(3).wav</ShortName>
+					<CachePath>SFX/RockFall 6032_93_2(3)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1017309661" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootstepsDirt 6016_88_1.wav</ShortName>
+					<CachePath>SFX/FootstepsDirt 6016_88_1_50E774F6.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="85412153" Name="Ambience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="591445986"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4114301772" Name="AntiAircraftShoot" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.8141476" DurationMax="2.2909698">
+					<MediaRefs>
+						<MediaRef Id="93037106"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3462069665" Name="AnubisDeath" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.54459" DurationMax="1.54459">
+					<MediaRefs>
+						<MediaRef Id="446255979"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1656394493" Name="BigReverb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2670972206" Name="AnubisSpawn" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="643819459"/>
+						<MediaRef Id="704891391"/>
+						<MediaRef Id="802156551"/>
+						<MediaRef Id="940511555"/>
+						<MediaRef Id="966177410"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1656394493" Name="BigReverb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1708628143" Name="AnubisStep" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.0096657" DurationMax="2.4656289">
+					<MediaRefs>
+						<MediaRef Id="105573546"/>
+						<MediaRef Id="136575788"/>
+						<MediaRef Id="221298946"/>
+						<MediaRef Id="371038760"/>
+						<MediaRef Id="452902770"/>
+						<MediaRef Id="453582365"/>
+						<MediaRef Id="971497490"/>
+						<MediaRef Id="1017309661"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="139997952" Name="BaseLoop" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="440912395"/>
+						<MediaRef Id="703066660"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4051332235" Name="ButtonClick" DurationType="OneShot" DurationMin="0.33358333" DurationMax="0.33358333">
+					<MediaRefs>
+						<MediaRef Id="687440900"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3035572085" Name="ButtonHover" DurationType="OneShot" DurationMin="0.037438378" DurationMax="0.042071737">
+					<MediaRefs>
+						<MediaRef Id="789879014"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3770570680" Name="ButtonNegative" DurationType="OneShot" DurationMin="0.3285218" DurationMax="0.3285218">
+					<MediaRefs>
+						<MediaRef Id="756446293"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="391172934" Name="EnemyHit" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.2503118" DurationMax="0.76984054">
+					<MediaRefs>
+						<MediaRef Id="667024620"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4158285989" Name="GameOver" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="2555741448" Name="Finish"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1776280627" Name="GameWin" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="2555741448" Name="Finish"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1555803110" Name="GeneratorLoop" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="71025920"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1545734111" Name="GolemDeath" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.2963045" DurationMax="2.4957716">
+					<MediaRefs>
+						<MediaRef Id="72581133"/>
+						<MediaRef Id="1012224955"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1537521749" Name="GolemStep" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.39638364" DurationMax="0.74151325">
+					<MediaRefs>
+						<MediaRef Id="21932661"/>
+						<MediaRef Id="105573546"/>
+						<MediaRef Id="136575788"/>
+						<MediaRef Id="221298946"/>
+						<MediaRef Id="371038760"/>
+						<MediaRef Id="452902770"/>
+						<MediaRef Id="594728780"/>
+						<MediaRef Id="860795904"/>
+						<MediaRef Id="971497490"/>
+						<MediaRef Id="1014663018"/>
+						<MediaRef Id="1017309661"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2110480435" Name="LaserShoot" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.7393498" DurationMax="2.0423281">
+					<MediaRefs>
+						<MediaRef Id="74498138"/>
+						<MediaRef Id="252645366"/>
+						<MediaRef Id="308195721"/>
+						<MediaRef Id="708764159"/>
+						<MediaRef Id="937531035"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2711079512" Name="LoseHealth" DurationType="OneShot" DurationMin="1.2376462" DurationMax="1.4752222">
+					<MediaRefs>
+						<MediaRef Id="891956026"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3134349484" Name="MatriarchDeath" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.649917" DurationMax="1.649917">
+					<MediaRefs>
+						<MediaRef Id="71893868"/>
+						<MediaRef Id="881131733"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1656394493" Name="BigReverb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2973567831" Name="MatriarchSpawn" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.3141875" DurationMax="2.3141875">
+					<MediaRefs>
+						<MediaRef Id="643819459"/>
+						<MediaRef Id="726331736"/>
+						<MediaRef Id="802156551"/>
+						<MediaRef Id="966177410"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1656394493" Name="BigReverb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="379836012" Name="MatriarchStep" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.16762424" DurationMax="0.313574">
+					<MediaRefs>
+						<MediaRef Id="105573546"/>
+						<MediaRef Id="136575788"/>
+						<MediaRef Id="221298946"/>
+						<MediaRef Id="371038760"/>
+						<MediaRef Id="452902770"/>
+						<MediaRef Id="971497490"/>
+						<MediaRef Id="1017309661"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="786279897" Name="MineExplosion" MaxAttenuation="100" DurationType="OneShot" DurationMin="4.8526" DurationMax="5.5324736">
+					<MediaRefs>
+						<MediaRef Id="235777001"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1122283870" Name="MusicStart" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="2764240573"/>
+							<MediaRefs>
+								<MediaRef Id="495602436"/>
+								<MediaRef Id="916854383"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="2555741448"/>
+							<MediaRefs>
+								<MediaRef Id="752394969"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="2764240573" Name="Combat"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3406219770" Name="Placement" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.2344352" DurationMax="1.4705453">
+					<MediaRefs>
+						<MediaRef Id="626141150"/>
+						<MediaRef Id="665527522"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="468214889" Name="PortalLoop" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="162959372"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="71202558" Name="Spawn" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.0834428" DurationMax="2.151708">
+					<MediaRefs>
+						<MediaRef Id="643819459"/>
+						<MediaRef Id="802156551"/>
+						<MediaRef Id="966177410"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1656394493" Name="BigReverb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3300179016" Name="SpiderDeath" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.2023571" DurationMax="0.41993868">
+					<MediaRefs>
+						<MediaRef Id="276201603"/>
+						<MediaRef Id="554089665"/>
+						<MediaRef Id="826182308"/>
+						<MediaRef Id="994177853"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="165933688" Name="SpiderStep" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.08095717" DurationMax="0.15144625">
+					<MediaRefs>
+						<MediaRef Id="105573546"/>
+						<MediaRef Id="136575788"/>
+						<MediaRef Id="221298946"/>
+						<MediaRef Id="371038760"/>
+						<MediaRef Id="452902770"/>
+						<MediaRef Id="971497490"/>
+						<MediaRef Id="1017309661"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1761619228" Name="TowerBuyClick" DurationType="OneShot" DurationMin="0.33591667" DurationMax="0.33591667">
+					<MediaRefs>
+						<MediaRef Id="223829313"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1474399760" Name="TowerSell" DurationType="OneShot" DurationMin="1.0364912" DurationMax="1.0993935">
+					<MediaRefs>
+						<MediaRef Id="992387451"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="462582482" Name="WaveStart" DurationType="OneShot" DurationMin="8" DurationMax="8">
+					<MediaRefs>
+						<MediaRef Id="752541459"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1656394493" Name="BigReverb"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2555741448" Name="Finish"/>
+						<State Id="2764240573" Name="Combat"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4C37C803-5264-B2CD-8218-3EB45ADAB37C}</FileHash>
+</SoundBanksInfo>

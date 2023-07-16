@@ -1,0 +1,94 @@
+Event	ID	Name			Wwise Object Path	Notes
+	71202558	Spawn			\Default Work Unit\Monsters\Spawn	
+	85412153	Ambience			\Default Work Unit\General\Ambience	
+	139997952	BaseLoop			\Default Work Unit\General\BaseLoop	
+	165933688	SpiderStep			\Default Work Unit\Monsters\SpiderStep	
+	379836012	MatriarchStep			\Default Work Unit\Monsters\MatriarchStep	
+	391172934	EnemyHit			\Default Work Unit\Monsters\EnemyHit	
+	462582482	WaveStart			\Default Work Unit\General\WaveStart	
+	468214889	PortalLoop			\Default Work Unit\General\PortalLoop	
+	786279897	MineExplosion			\Default Work Unit\Turrets\MineExplosion	
+	1122283870	MusicStart			\Default Work Unit\MusicStart	
+	1474399760	TowerSell			\Default Work Unit\UI\TowerSell	
+	1537521749	GolemStep			\Default Work Unit\Monsters\GolemStep	
+	1545734111	GolemDeath			\Default Work Unit\Monsters\GolemDeath	
+	1555803110	GeneratorLoop			\Default Work Unit\Turrets\GeneratorLoop	
+	1708628143	AnubisStep			\Default Work Unit\Monsters\Anubis\AnubisStep	
+	1761619228	TowerBuyClick			\Default Work Unit\UI\TowerBuyClick	
+	1776280627	GameWin			\Default Work Unit\General\GameWin	
+	2110480435	LaserShoot			\Default Work Unit\Turrets\LaserShoot	
+	2670972206	AnubisSpawn			\Default Work Unit\Monsters\Anubis\AnubisSpawn	
+	2711079512	LoseHealth			\Default Work Unit\General\LoseHealth	
+	2973567831	MatriarchSpawn			\Default Work Unit\Monsters\MatriarchSpawn	
+	3035572085	ButtonHover			\Default Work Unit\UI\ButtonHover	
+	3134349484	MatriarchDeath			\Default Work Unit\Monsters\MatriarchDeath	
+	3300179016	SpiderDeath			\Default Work Unit\Monsters\SpiderDeath	
+	3406219770	Placement			\Default Work Unit\Turrets\Placement	
+	3462069665	AnubisDeath			\Default Work Unit\Monsters\Anubis\AnubisDeath	
+	3770570680	ButtonNegative			\Default Work Unit\UI\ButtonNegative	
+	4051332235	ButtonClick			\Default Work Unit\UI\ButtonClick	
+	4114301772	AntiAircraftShoot			\Default Work Unit\Turrets\AntiAircraftShoot	
+	4158285989	GameOver			\Default Work Unit\General\GameOver	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music			
+	2555741448	Finish	Music			
+	2764240573	Combat	Music			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21932661	RockFall 6032_93_2	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\RockFall 6032_93_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem Steps\Rocks\RockFall 6032_93_2		67548
+	71025920	Generator	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\VaeyanIII,massager,osscilations,switch,hispeed,mechanical,electrical,50Hz,hum,vibration,loopable_5664F5C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Generator		4562334
+	71893868	Matriarch Scream	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\ANIMAL FARM Pig, Baby, Scream, Shrill, City Street 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Matriarch\Matriarch Scream		211524
+	72581133	PM_RI_Designed_7 Rocks Impact Hit Big LFE Heavy Designed	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\PM_RI_Designed_7 Rocks Impact Hit Big LFE Heavy Designed_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem Death\PM_RI_Designed_7 Rocks Impact Hit Big LFE Heavy Designed		288148
+	74498138	CANNON Plasma Shot Tonal High 10	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\CANNON Plasma Shot Tonal High 10_51135F9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Laser Shoot\CANNON Plasma Shot Tonal High 10		237056
+	93037106	Antiaircraft Shoot	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Steampunk Weapons - Shotgun 2 - Shot - 03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Antiaircraft Shoot		385908
+	105573546	FootstepsDirt 6016_88_02	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\FootstepsDirt 6016_88_1_D72B4048.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Step\StepAnubis\FootstepsDirt 6016_88_02		82588
+	136575788	FootstepsDirt 6016_88_06	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\FootstepsDirt 6016_88_1_2864AC57.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Step\StepAnubis\FootstepsDirt 6016_88_06		81968
+	162959372	Portal	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Drone,Cyber,Deep,Pulse,Disturbing,Invasive,Loop_71436586.wem		\Actor-Mixer Hierarchy\Default Work Unit\Portal		4966808
+	221298946	FootstepsDirt 6016_88_1	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\FootstepsDirt 6016_88_1_913B07AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Step\StepAnubis\FootstepsDirt 6016_88_1		75816
+	223829313	UI Tower Buy	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\CasinoSlotMachine 6010_69_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Tower Buy		64592
+	235777001	Mine Explosion	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Bluezone-BC0214-beep-mine-explosion-002(2)_91D8BEC4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mine Explosion		931796
+	252645366	ElectricitySpark 6039_61_9	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\ElectricitySpark 6039_61_9_7514B039.wem		\Actor-Mixer Hierarchy\Default Work Unit\Laser Shoot\Electric\ElectricitySpark 6039_61_9		258520
+	276201603	Borax,Impact,Slime,Gore,Various22	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Borax,Impact,Slime,Gore,Various22_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SpiderDeath\Borax,Impact,Slime,Gore,Various22		69976
+	308195721	ElectricitySpark 6039_62_3	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\ElectricitySpark 6039_62_3_5F42F8EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Laser Shoot\Electric\ElectricitySpark 6039_62_3		148160
+	371038760	FootstepsDirt 6016_88_01	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\FootstepsDirt 6016_88_1_C94FC4FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Step\StepAnubis\FootstepsDirt 6016_88_01		62268
+	440912395	Construction	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Amb,Construction,Int,Muffled,Power hammer,Drops,Impacts_31C8CD95.wem		\Actor-Mixer Hierarchy\Default Work Unit\Factory\Construction		3932312
+	446255979	Anubis Death	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Death_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Death		267372
+	452902770	FootstepsDirt 6016_88_03	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\FootstepsDirt 6016_88_1_D2405D9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Step\StepAnubis\FootstepsDirt 6016_88_03		79508
+	453582365	Monster Footsteps 01	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Monster Footsteps 01_A8C159F0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Step\Monster Footsteps 01		201682
+	495602436	Tower Defense Start	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Tower Defense Start_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Combat Music\Starting Segment\Tower Defense Start		4233696
+	554089665	Borax,Impact,Slime,Gore,Various63	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Borax,Impact,Slime,Gore,Various63_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SpiderDeath\Borax,Impact,Slime,Gore,Various63		70816
+	591445986	AMBIENCE Desert Soft Day(2)	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\AMBIENCE Desert Soft Day(2)_C64E72A9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience Desert\AMBIENCE Desert Soft Day(2)		11520144
+	594728780	RockFall 6032_93_2(2)	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\RockFall 6032_93_2(2)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem Steps\Rocks\RockFall 6032_93_2(2)		68748
+	626141150	GEARBOX - DESIGNED - LARGE - Original Helmsworth Cylinder Press 01	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\GEARBOX - DESIGNED - LARGE - Original Helmsworth Cylinder Press 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tower PLacement\GEARBOX - DESIGNED - LARGE - Original Helmsworth Cylinder Press 01		266440
+	643819459	Lighting_Hit_03	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Lighting_Hit_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spawn\Lighting_Hit_03		317512
+	665527522	UI Placementr	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\PM_MMM_Rhythmical_Movement_Tick_LoopContrustcionKit_21_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tower PLacement\UI Placementr		90804
+	667024620	Hit	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Leeks,Break,Bone,Crack,Body,Arm13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hit		88800
+	687440900	UI Clickl	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\G4F SFX11 - ExoInterface - Cursor Click 25_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Clickl		64144
+	703066660	Work,Hammer,Wall,Concrete Block,Sledgehammers,Pair,Hit,Debris,Patient - very faint background construction	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Work,Hammer,Wall,Concrete Block,Sledgehammers,Pair,Hit,Debris,Patient - very faint background construction_D1A09252.wem		\Actor-Mixer Hierarchy\Default Work Unit\Factory\Work,Hammer,Wall,Concrete Block,Sledgehammers,Pair,Hit,Debris,Patient - very faint background construction		16598020
+	704891391	Anubis Breath	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\MONSTER Yeti breathe 05_0F396B9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Breath		1616984
+	708764159	ElectricitySpark 6039_62_2	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\ElectricitySpark 6039_62_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Laser Shoot\Electric\ElectricitySpark 6039_62_2		274528
+	726331736	Matriarch Spawn	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\EFX SD Female Ragging Creature 03 A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Matriarch\Matriarch Spawn		444420
+	752394969	Tower Defense Finish	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Tower Defense Finish_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Finish Segment\Tower Defense Finish		2490448
+	752541459	Wave Start	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Epic Movie Trailer Huge Shot 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wave Start		1536096
+	756446293	UI Negative	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Waterphone, Clock, Ticking, Tick, Tock, Click, Rhythm, Time, Watch, Countdown_20980F15.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Negative		63172
+	789879014	UI Hover	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\War_UI_Source_Stapler_Remover_Click_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Hover		7716
+	802156551	Lighting_Hit_02	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Lighting_Hit_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spawn\Lighting_Hit_02		290232
+	826182308	Borax,Impact,Slime,Gore,Various05	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Borax,Impact,Slime,Gore,Various05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SpiderDeath\Borax,Impact,Slime,Gore,Various05		53536
+	860795904	RockFall 6032_93_2(4)	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\RockFall 6032_93_2(4)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem Steps\Rocks\RockFall 6032_93_2(4)		68160
+	881131733	Matriarch Explode	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\GORE - Head_Explode_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Matriarch\Matriarch Explode		301332
+	891956026	Damage	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Explosive 1 v2 [DOD 130303].flac_1F9316C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Damage		259532
+	916854383	Tower Defense Main	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Tower Defense Main_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Combat Music\Combat Music\Tower Defense Main		13946072
+	937531035	ElectricitySpark 6039_62_1	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\ElectricitySpark 6039_62_1_EE8BE816.wem		\Actor-Mixer Hierarchy\Default Work Unit\Laser Shoot\Electric\ElectricitySpark 6039_62_1		270460
+	940511555	Anubis Spawn	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\HELLHOUND Idle Weak 03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Spawn		1734240
+	966177410	Lighting_Hit_01	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Lighting_Hit_01_F33A808C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spawn\Lighting_Hit_01		366664
+	971497490	FootstepsDirt 6016_88_04	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\FootstepsDirt 6016_88_1_74A1BB79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Step\StepAnubis\FootstepsDirt 6016_88_04		94900
+	992387451	UI Tower Sell	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\262703 - Drop Couple of Gold Coins on Coins 03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Tower Sell		205052
+	994177853	Borax,Impact,Slime,Gore,Various16	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\Borax,Impact,Slime,Gore,Various16_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SpiderDeath\Borax,Impact,Slime,Gore,Various16		44392
+	1012224955	PM_RI_Designed_19 Rocks Impact Hit Big LFE Heavy Designed	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\PM_RI_Designed_19 Rocks Impact Hit Big LFE Heavy Designed_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem Death\PM_RI_Designed_19 Rocks Impact Hit Big LFE Heavy Designed		414372
+	1014663018	RockFall 6032_93_2(3)	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\RockFall 6032_93_2(3)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Golem Steps\Rocks\RockFall 6032_93_2(3)		84872
+	1017309661	FootstepsDirt 6016_88_05	D:\Tower Defense Project\Tower Defense Wwise\.cache\Windows\SFX\FootstepsDirt 6016_88_1_50E774F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Anubis\Anubis Step\StepAnubis\FootstepsDirt 6016_88_05		93048
+

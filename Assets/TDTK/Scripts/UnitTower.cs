@@ -111,6 +111,9 @@ namespace TDTK{
 		public AudioClip soundUpgraded;
 		public AudioClip soundSold;
 		public AudioClip soundDestroyed;
+
+
+		[SerializeField] AK.Wwise.Event TowerSold, TowerBuilt;
 		
 		[Space(10)][Tooltip("Use in Free-Form mode only, specify the space occupied by the tower")]
 		public float radius=.5f;
@@ -152,6 +155,7 @@ namespace TDTK{
 				constructState=_ConstructState.Build;
 				AudioManager.OnBuildStart();
 				AudioManager.PlaySound(soundBuilding);
+				AudioManager.PlaySoundW(TowerBuilt, gameObject);
 			}
 			else{
 				constructState=_ConstructState.Upgrade;

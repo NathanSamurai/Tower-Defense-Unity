@@ -10,6 +10,7 @@ namespace TDTK{
 		private List<AudioSource> audioSourceList_UI=new List<AudioSource>();
 		
 		private static AudioManager instance;
+
 		
 		//~ void Awake(){
 			//~ if(instance!=null){
@@ -109,6 +110,10 @@ namespace TDTK{
 		
 		
 		//call to play a specific clip
+		public static void PlaySoundW(AK.Wwise.Event toPlay, GameObject org){
+			toPlay.Post(org);
+		}
+
 		public static void PlaySound(AudioClip clip, Vector3 pos=default(Vector3)){ if(instance!=null) instance._PlaySound(clip, pos); }
 		public void _PlaySound(AudioClip clip, Vector3 pos=default(Vector3)){
 			if(clip==null) return;
