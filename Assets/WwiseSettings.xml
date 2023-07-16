@@ -10,7 +10,7 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
-  <WwiseInstallationPathWindows>E:\Audiokinetic\Wwise 2022.1.2.8150</WwiseInstallationPathWindows>
+  <WwiseInstallationPathWindows>E:\Audiokinetic\Wwise 2022.1.3.8179</WwiseInstallationPathWindows>
   <WwiseProjectPath>../../Tower Defense Wwise/Tower Defense Wwise.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
