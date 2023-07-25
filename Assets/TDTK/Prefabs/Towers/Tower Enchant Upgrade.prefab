@@ -398,6 +398,14 @@ MonoBehaviour:
   soundUpgraded: {fileID: 0}
   soundSold: {fileID: 0}
   soundDestroyed: {fileID: 0}
+  TowerSold:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerBuilt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   radius: 0.5
   supportTgtList: []
   supportSrcList: []

@@ -81,6 +81,7 @@ namespace TDTK {
 		public AudioClip shootSound;
 		public AudioClip hitSound;
 		
+		public AK.Wwise.Event shootSoundW, hitSoundW;
 		
 		[Header("Runtime Attribute (For Debugging)")]
 		public Unit tgtUnit;
@@ -194,6 +195,8 @@ namespace TDTK {
 			
 			effectShoot.Spawn(GetPos(), GetRot());
 			AudioManager.PlaySound(shootSound, GetPos());
+			AudioManager.PlaySoundW(shootSoundW, gameObject);
+
 		}
 		
 		
@@ -321,6 +324,7 @@ namespace TDTK {
 			
 			effectHit.Spawn(hitPos, Quaternion.identity);
 			AudioManager.PlaySound(hitSound, hitPos);
+			AudioManager.PlaySoundW(hitSoundW, gameObject);
 			
 			if(attackInfo!=null && tgtUnit!=null){
 				tgtUnit.ApplyAttack(attackInfo);

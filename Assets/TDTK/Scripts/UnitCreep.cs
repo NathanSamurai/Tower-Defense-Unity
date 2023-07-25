@@ -94,6 +94,8 @@ namespace TDTK{
 		public AudioClip soundSpawn;
 		public AudioClip soundDestroyed;
 		public AudioClip soundDestination;
+
+		[SerializeField] AK.Wwise.Event CreepSpawn, CreepDestroyed, CreepDestination;
 		
 		
 		//for override default value, called from SpawnManager, the cached value are the default value for prefab, 
@@ -203,6 +205,7 @@ namespace TDTK{
 			
 			effectSpawn.Spawn(GetPos(), Quaternion.identity);
 			AudioManager.PlaySound(soundSpawn);
+			AudioManager.PlaySoundW(CreepSpawn, gameObject);
 			
 			AnimReset();
 			AnimPlaySpawn();
@@ -623,6 +626,7 @@ namespace TDTK{
 			
 			effectDestination.Spawn(GetPos(), Quaternion.identity);
 			AudioManager.PlaySound(soundDestination);
+			AudioManager.PlaySoundW(CreepDestination, gameObject);
 			
 			GameControl.LostLife(lifeLostOnDestination);
 			
@@ -691,6 +695,7 @@ namespace TDTK{
 			if(spawnEffDestroyed){
 				effectDestroyed.Spawn(GetTargetPoint(), Quaternion.identity);
 				AudioManager.PlaySound(soundDestroyed);
+				AudioManager.PlaySoundW(CreepDestroyed, gameObject);
 			}
 			
 			if(IsSupport()) SupportClearAllTarget();

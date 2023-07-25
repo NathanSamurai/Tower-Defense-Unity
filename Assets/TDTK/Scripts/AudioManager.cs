@@ -172,7 +172,12 @@ namespace TDTK{
 		public static void OnUpgradeComplete(){ if(instance!=null && instance.upgradeComplete!=null) PlayUISound(instance.upgradeComplete); }
 		
 		public AudioClip towerSold;
-		public static void OnTowerSold(){ if(instance!=null && instance.towerSold!=null) PlayUISound(instance.towerSold); }
+		public static void OnTowerSold(){ 
+			if(instance!=null && instance.towerSold!=null) {
+				PlayUISound(instance.towerSold); 
+				
+			}
+		}
 		
 		
 		public AudioClip perkPurchased;

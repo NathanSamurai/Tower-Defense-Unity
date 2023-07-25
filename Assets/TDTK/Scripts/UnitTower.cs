@@ -113,7 +113,7 @@ namespace TDTK{
 		public AudioClip soundDestroyed;
 
 
-		[SerializeField] AK.Wwise.Event TowerSold, TowerBuilt;
+		[SerializeField] AK.Wwise.Event TowerSold, TowerBuilt, TowerBuilding, TowerUpgrade, TowerUpgrading, TowerDestroyed;
 		
 		[Space(10)][Tooltip("Use in Free-Form mode only, specify the space occupied by the tower")]
 		public float radius=.5f;
@@ -161,6 +161,7 @@ namespace TDTK{
 				constructState=_ConstructState.Upgrade;
 				AudioManager.OnUpgradeStart();
 				AudioManager.PlaySound(soundUpgrading);
+				AudioManager.PlaySoundW(TowerUpgrading, gameObject);
 			}
 			
 			float buildDuration=GetBuildDuration(level + (isUpgrade ? 1 : 0));
@@ -185,6 +186,7 @@ namespace TDTK{
 			
 			//effectSold.Spawn(GetPos(), Quaternion.identity);
 			AudioManager.PlaySound(soundSold);
+			AudioManager.PlaySoundW(TowerSold, gameObject);
 			
 			AnimPlayDeconstruct();
 			
@@ -221,6 +223,7 @@ namespace TDTK{
 					
 					AudioManager.OnUpgradeComplete();
 					AudioManager.PlaySound(soundUpgraded);
+					AudioManager.PlaySoundW(TowerUpgrade, gameObject);
 					
 					OnSupportTowerBuilt();
 					
@@ -230,6 +233,7 @@ namespace TDTK{
 					effectBuilt.Spawn(GetPos(), Quaternion.identity);
 					AudioManager.OnBuildComplete();
 					AudioManager.PlaySound(soundBuilt);
+					AudioManager.PlaySoundW(TowerBuilt, gameObject);
 					
 					OnSupportTowerBuilt();
 				}
@@ -497,6 +501,7 @@ namespace TDTK{
 			if(spawnEffDestroyed){
 				effectDestroyed.Spawn(GetPos(), Quaternion.identity);
 				AudioManager.PlaySound(soundDestroyed);
+				AudioManager.PlaySoundW(TowerDestroyed, gameObject);
 			}
 			
 			if(destroyedByAttack){
