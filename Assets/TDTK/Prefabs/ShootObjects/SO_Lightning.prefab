@@ -230,7 +230,13 @@ MonoBehaviour:
   shootSoundW:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 66ee213b17cf1c848b9b98aa915232cd,
+      type: 2}
+  hitSoundW:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9d75d8ccd8e5935428da18934c27288d,
+      type: 2}
   tgtUnit: {fileID: 0}
   tgtRadius: 0
   targetPos: {x: 0, y: 0, z: 0}

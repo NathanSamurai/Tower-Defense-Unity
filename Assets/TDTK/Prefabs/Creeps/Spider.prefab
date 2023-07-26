@@ -481,11 +481,13 @@ MonoBehaviour:
   CreepSpawn:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 7bb42963e32142e429ed33f814656847,
+      type: 2}
   CreepDestroyed:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 27b318e79eaf97c4ca560ca673827008,
+      type: 2}
   CreepDestination:
     idInternal: 0
     valueGuidInternal: 

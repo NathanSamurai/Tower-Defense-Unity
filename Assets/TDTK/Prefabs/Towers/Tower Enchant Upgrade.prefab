@@ -401,8 +401,26 @@ MonoBehaviour:
   TowerSold:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 4e3b24078647c7a40bdf6af4743553ee,
+      type: 2}
   TowerBuilt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7b785d2fa1c05dd46abf9150a20806fd,
+      type: 2}
+  TowerBuilding:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerUpgrade:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerUpgrading:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerDestroyed:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}

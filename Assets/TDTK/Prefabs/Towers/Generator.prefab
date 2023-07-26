@@ -398,6 +398,30 @@ MonoBehaviour:
   soundUpgraded: {fileID: 0}
   soundSold: {fileID: 0}
   soundDestroyed: {fileID: 0}
+  TowerSold:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerBuilt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerBuilding:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerUpgrade:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerUpgrading:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerDestroyed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   radius: 0.5
   supportTgtList: []
   supportSrcList: []
@@ -460,7 +484,8 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 3ef1cf1fe49776448afea64263bb202b,
+      type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0

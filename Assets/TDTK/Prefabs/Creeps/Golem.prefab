@@ -394,6 +394,20 @@ MonoBehaviour:
   soundSpawn: {fileID: 0}
   soundDestroyed: {fileID: 0}
   soundDestination: {fileID: 0}
+  CreepSpawn:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7bb42963e32142e429ed33f814656847,
+      type: 2}
+  CreepDestroyed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1741c169df4272643ace39b4a685fa6f,
+      type: 2}
+  CreepDestination:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   supportTgtList: []
   supportSrcList: []
   reverse: 0
