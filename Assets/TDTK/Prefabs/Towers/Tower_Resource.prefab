@@ -378,7 +378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resetTargetOnAttack: 0
-  prefabID: -1
+  prefabID: 1
   instanceID: -1
   unitName: Resource Tower
   icon: {fileID: 21300010, guid: c1bf8f531a58e5a43a7677bc162c964a, type: 3}
@@ -695,6 +695,30 @@ MonoBehaviour:
   soundUpgraded: {fileID: 0}
   soundSold: {fileID: 0}
   soundDestroyed: {fileID: 0}
+  TowerSold:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerBuilt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerBuilding:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerUpgrade:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerUpgrading:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerDestroyed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   radius: 0.5
   supportTgtList: []
   supportSrcList: []
@@ -702,7 +726,7 @@ MonoBehaviour:
   nodeID: 0
   unlockUpgradeViaPerk: 0
   upgradeTowerList:
-  - {fileID: 114825332541157422, guid: 232a41f67b6cc6e4bbcbd55d6664a3eb, type: 3}
+  - {fileID: 0}
   - {fileID: 114541810645508154, guid: 83408afc61d1bb54eb8a281d0e366c99, type: 3}
 --- !u!135 &135334952904015116
 SphereCollider:

@@ -220,7 +220,7 @@ MonoBehaviour:
   prefabID: 7
   instanceID: -1
   unitName: Block
-  icon: {fileID: 21300000, guid: 048775509020f4f439355f88b5c9c9a1, type: 3}
+  icon: {fileID: 21300000, guid: 30b3fdf13c1423a4a9198831452fafb5, type: 3}
   desp: Just a structure to occupy a space on the grid.
   canBeAttacked: 0
   canBeTargeted: 0

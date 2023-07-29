@@ -442,7 +442,7 @@ MonoBehaviour:
   clipConstruct: {fileID: 0}
   clipDeconstruct: {fileID: 0}
   creepType: 3
-  isTurret: 1
+  isTurret: 0
   isAOE: 0
   isSupport: 0
   isSpawner: 0

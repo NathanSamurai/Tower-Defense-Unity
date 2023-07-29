@@ -57,7 +57,7 @@ MonoBehaviour:
   canBeAttacked: 1
   canBeTargeted: 1
   unitRadius: 0.25
-  targetPoint: {fileID: 4113172471181260}
+  targetPoint: {fileID: 0}
   hp: 10
   sh: 10
   shStagger: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
     - 0
   effectImmunityList: 
   attackTargetList: []
-  shootObject: {fileID: 114917850592720432, guid: 9894ee1936d71e4409526f77dc26b2ec,
+  shootObject: {fileID: 114266115900946412, guid: 0a7192722c7813b4d90ad76ef51b55c3,
     type: 3}
   shootPoint:
   - {fileID: 398864763728711196}

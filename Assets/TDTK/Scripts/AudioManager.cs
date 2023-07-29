@@ -6,6 +6,12 @@ namespace TDTK{
 
 	public class AudioManager : MonoBehaviour {
 
+		
+		//public AK.Wwise.Event lifeLostW;
+		//public static GameObject lifeLostSource;
+
+		public static lostLifeScript lostLifeScriptReference;
+		
 		private List<AudioSource> audioSourceList=new List<AudioSource>();
 		private List<AudioSource> audioSourceList_UI=new List<AudioSource>();
 		
@@ -27,7 +33,6 @@ namespace TDTK{
 			
 		//~ }
 		
-		
 		public Transform cameraT;
 		
 		public void Awake(){
@@ -39,6 +44,7 @@ namespace TDTK{
 			CreateAudioSource();
 			
 			cameraT=Camera.main.transform;
+			lostLifeScriptReference = gameObject.GetComponent<lostLifeScript>();
 		}
 		
 		
@@ -148,12 +154,34 @@ namespace TDTK{
 		
 		[Header("Sound Effect")]
 		public AudioClip playerWon;
-		public static void OnPlayerWon(){ if(instance!=null && instance.playerWon!=null) PlayUISound(instance.playerWon); }
+		public static void OnPlayerWon(){ 
+			if(instance!=null)
+			{ 
+				lostLifeScriptReference.playerWonW.Post(lostLifeScriptReference.lifeLostSource);
+			}
+		}
+		
+		
+		
 		public AudioClip playerLost;
-		public static void OnPlayerLost(){ if(instance!=null && instance.playerLost!=null) PlayUISound(instance.playerLost); }
+		public static void OnPlayerLost(){ 
+			if(instance!=null)
+			{
+			  	
+				lostLifeScriptReference.PlayerLostW.Post(lostLifeScriptReference.lifeLostSource);
+			}
+		}
 		
 		public AudioClip lostLife;
-		public static void OnLostLife(){ if(instance!=null && instance.lostLife!=null) PlayUISound(instance.lostLife); }
+		
+		
+		public static void OnLostLife(){ 
+			if(instance!=null){
+				lostLifeScriptReference.lifeLostW.Post(lostLifeScriptReference.lifeLostSource);
+				//MyUIButtonFunction.instance.HPLose();
+			}
+			
+		}
 		
 		public AudioClip newWave;
 		public AudioClip waveCleared;

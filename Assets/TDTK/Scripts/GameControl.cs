@@ -31,6 +31,8 @@ namespace TDTK {
 		public float lifeRegen=0;
 		public float lifeRegenMul=1;
 		private float lifeRegenCached=0;
+
+		[SerializeField] AK.Wwise.Event lostHealthW;
 		
 		public static int GetLife(){ return instance.life; }
 		public static void GainLife(int value=1){	if(value==0) return;
@@ -46,8 +48,14 @@ namespace TDTK {
 			instance.life=Mathf.Max(0, instance.life-value);
 			TDTK.OnLifeChanged(instance.life);
 			
-			if(instance.life<=0) EndGame();
-			else AudioManager.OnLostLife();
+			if(instance.life<=0)
+			{ 
+				EndGame();
+			}
+			else{
+				AudioManager.OnLostLife();
+				
+			}
 		}
 		
 		public static bool CapLife(){ return instance.capLife; }

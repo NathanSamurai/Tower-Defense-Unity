@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 4036725126081986}
   - component: {fileID: 114818404139447466}
   - component: {fileID: 135198367364419382}
+  - component: {fileID: 36750534445733120}
   m_Layer: 27
   m_Name: Anubis
   m_TagString: Untagged
@@ -437,6 +438,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.3
   m_Center: {x: 0, y: 0.3, z: 0}
+--- !u!114 &36750534445733120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368356499209674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3d3066af020784293d1e92d63a8780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3369187380314383392
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,404 +1,1190 @@
 fileFormatVersion: 2
 guid: 7be8278abf9465e44904963e43ecd654
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Anubis
-    100004: armo
-    100006: armo 1
-    100008: armo 10
-    100010: armo 11
-    100012: armo 2
-    100014: armo 3
-    100016: armo 4
-    100018: armo 5
-    100020: armo 6
-    100022: armo 7
-    100024: armo 8
-    100026: armo 9
-    100028: Body
-    100030: Body 1
-    100032: Body 10
-    100034: Body 11
-    100036: Body 2
-    100038: Body 3
-    100040: Body 4
-    100042: Body 5
-    100044: Body 6
-    100046: Body 7
-    100048: Body 8
-    100050: Body 9
-    100052: joint1
-    100054: Joint_Bone
-    100056: Joint_Object
-    100058: jtBn_head
-    100060: jtBn_Jaw
-    100062: jtBn_l_ankle
-    100064: jtBn_l_clavicle
-    100066: jtBn_l_down_arm
-    100068: jtBn_l_down_elbow
-    100070: jtBn_l_down_index
-    100072: jtBn_l_down_index1
-    100074: jtBn_l_down_index2
-    100076: jtBn_l_down_little
-    100078: jtBn_l_down_little1
-    100080: jtBn_l_down_little2
-    100082: jtBn_l_down_mid
-    100084: jtBn_l_down_mid1
-    100086: jtBn_l_down_mid2
-    100088: jtBn_l_down_thumb
-    100090: jtBn_l_down_thumb1
-    100092: jtBn_l_down_thumb2
-    100094: jtBn_l_down_twist
-    100096: jtBn_l_DownHand_Weapon
-    100098: jtBn_l_hip
-    100100: jtBn_l_knee
-    100102: jtBn_l_up_arm
-    100104: jtBn_l_up_elbow
-    100106: jtBn_l_up_index
-    100108: jtBn_l_up_index1
-    100110: jtBn_l_up_index2
-    100112: jtBn_l_up_little
-    100114: jtBn_l_up_little1
-    100116: jtBn_l_up_little2
-    100118: jtBn_l_up_mid
-    100120: jtBn_l_up_mid1
-    100122: jtBn_l_up_mid2
-    100124: jtBn_l_up_thumb
-    100126: jtBn_l_up_thumb1
-    100128: jtBn_l_up_thumb2
-    100130: jtBn_l_up_twist
-    100132: jtBn_l_upHand_Weapon
-    100134: jtBn_neck
-    100136: jtBn_r_ankle
-    100138: jtBn_r_clavicle
-    100140: jtBn_r_down_arm
-    100142: jtBn_r_down_elbow
-    100144: jtBn_r_down_index
-    100146: jtBn_r_down_index1
-    100148: jtBn_r_down_index2
-    100150: jtBn_r_down_little
-    100152: jtBn_r_down_little1
-    100154: jtBn_r_down_little2
-    100156: jtBn_r_down_mid
-    100158: jtBn_r_down_mid1
-    100160: jtBn_r_down_mid2
-    100162: jtBn_r_down_thumb
-    100164: jtBn_r_down_thumb1
-    100166: jtBn_r_down_thumb2
-    100168: jtBn_r_down_twist
-    100170: jtBn_r_DownHand_Weapon
-    100172: jtBn_r_hip
-    100174: jtBn_r_knee
-    100176: jtBn_r_up_arm
-    100178: jtBn_r_up_elbow
-    100180: jtBn_r_up_index
-    100182: jtBn_r_up_index1
-    100184: jtBn_r_up_index2
-    100186: jtBn_r_up_little
-    100188: jtBn_r_up_little1
-    100190: jtBn_r_up_little2
-    100192: jtBn_r_up_mid
-    100194: jtBn_r_up_mid1
-    100196: jtBn_r_up_mid2
-    100198: jtBn_r_up_thumb
-    100200: jtBn_r_up_thumb1
-    100202: jtBn_r_up_thumb2
-    100204: jtBn_r_up_twist
-    100206: jtBn_r_upHand_Weapon
-    100208: jtBn_spline_
-    100210: jtBn_spline_1
-    100212: jtBn_spline_2
-    100214: Mesh
-    100216: Mesh 1
-    100218: Mesh 2
-    100220: Mesh 3
-    100222: polySurface217
-    100224: polySurface218
-    100226: polySurface219
-    100228: polySurface220
-    100230: polySurface221
-    100232: polySurface222
-    100234: polySurface223
-    100236: polySurface224
-    100238: polySurface225
-    100240: polySurface226
-    100242: polySurface227
-    100244: polySurface228
-    100246: polySurface229
-    100248: polySurface230
-    100250: polySurface231
-    100252: polySurface232
-    100254: polySurface233
-    100256: polySurface234
-    100258: polySurface235
-    100260: polySurface236
-    100262: polySurface237
-    100264: polySurface238
-    100266: polySurface239
-    100268: polySurface240
-    100270: polySurface241
-    100272: polySurface242
-    100274: polySurface243
-    100276: polySurface244
-    100278: polySurface245
-    100280: polySurface246
-    100282: polySurface247
-    100284: polySurface248
-    100286: polySurface249
-    100288: polySurface250
-    100290: polySurface251
-    100292: polySurface252
-    100294: polySurface253
-    100296: polySurface254
-    100298: polySurface255
-    100300: polySurface256
-    100302: polySurface257
-    100304: polySurface258
-    100306: polySurface259
-    100308: polySurface260
-    100310: polySurface261
-    100312: polySurface262
-    100314: polySurface263
-    100316: polySurface264
-    100318: polySurface374
-    100320: polySurface375
-    100322: polySurface376
-    100324: polySurface377
-    100326: polySurface378
-    100328: polySurface379
-    100330: polySurface380
-    100332: polySurface381
-    100334: polySurface382
-    100336: polySurface383
-    100338: polySurface384
-    100340: polySurface385
-    100342: polySurface386
-    100344: polySurface387
-    100346: polySurface388
-    100348: polySurface389
-    100350: polySurface390
-    100352: polySurface391
-    100354: polySurface392
-    100356: polySurface393
-    100358: polySurface394
-    100360: polySurface395
-    100362: polySurface396
-    100364: polySurface397
-    400000: //RootNode
-    400002: Anubis
-    400004: armo
-    400006: armo 1
-    400008: armo 10
-    400010: armo 11
-    400012: armo 2
-    400014: armo 3
-    400016: armo 4
-    400018: armo 5
-    400020: armo 6
-    400022: armo 7
-    400024: armo 8
-    400026: armo 9
-    400028: Body
-    400030: Body 1
-    400032: Body 10
-    400034: Body 11
-    400036: Body 2
-    400038: Body 3
-    400040: Body 4
-    400042: Body 5
-    400044: Body 6
-    400046: Body 7
-    400048: Body 8
-    400050: Body 9
-    400052: joint1
-    400054: Joint_Bone
-    400056: Joint_Object
-    400058: jtBn_head
-    400060: jtBn_Jaw
-    400062: jtBn_l_ankle
-    400064: jtBn_l_clavicle
-    400066: jtBn_l_down_arm
-    400068: jtBn_l_down_elbow
-    400070: jtBn_l_down_index
-    400072: jtBn_l_down_index1
-    400074: jtBn_l_down_index2
-    400076: jtBn_l_down_little
-    400078: jtBn_l_down_little1
-    400080: jtBn_l_down_little2
-    400082: jtBn_l_down_mid
-    400084: jtBn_l_down_mid1
-    400086: jtBn_l_down_mid2
-    400088: jtBn_l_down_thumb
-    400090: jtBn_l_down_thumb1
-    400092: jtBn_l_down_thumb2
-    400094: jtBn_l_down_twist
-    400096: jtBn_l_DownHand_Weapon
-    400098: jtBn_l_hip
-    400100: jtBn_l_knee
-    400102: jtBn_l_up_arm
-    400104: jtBn_l_up_elbow
-    400106: jtBn_l_up_index
-    400108: jtBn_l_up_index1
-    400110: jtBn_l_up_index2
-    400112: jtBn_l_up_little
-    400114: jtBn_l_up_little1
-    400116: jtBn_l_up_little2
-    400118: jtBn_l_up_mid
-    400120: jtBn_l_up_mid1
-    400122: jtBn_l_up_mid2
-    400124: jtBn_l_up_thumb
-    400126: jtBn_l_up_thumb1
-    400128: jtBn_l_up_thumb2
-    400130: jtBn_l_up_twist
-    400132: jtBn_l_upHand_Weapon
-    400134: jtBn_neck
-    400136: jtBn_r_ankle
-    400138: jtBn_r_clavicle
-    400140: jtBn_r_down_arm
-    400142: jtBn_r_down_elbow
-    400144: jtBn_r_down_index
-    400146: jtBn_r_down_index1
-    400148: jtBn_r_down_index2
-    400150: jtBn_r_down_little
-    400152: jtBn_r_down_little1
-    400154: jtBn_r_down_little2
-    400156: jtBn_r_down_mid
-    400158: jtBn_r_down_mid1
-    400160: jtBn_r_down_mid2
-    400162: jtBn_r_down_thumb
-    400164: jtBn_r_down_thumb1
-    400166: jtBn_r_down_thumb2
-    400168: jtBn_r_down_twist
-    400170: jtBn_r_DownHand_Weapon
-    400172: jtBn_r_hip
-    400174: jtBn_r_knee
-    400176: jtBn_r_up_arm
-    400178: jtBn_r_up_elbow
-    400180: jtBn_r_up_index
-    400182: jtBn_r_up_index1
-    400184: jtBn_r_up_index2
-    400186: jtBn_r_up_little
-    400188: jtBn_r_up_little1
-    400190: jtBn_r_up_little2
-    400192: jtBn_r_up_mid
-    400194: jtBn_r_up_mid1
-    400196: jtBn_r_up_mid2
-    400198: jtBn_r_up_thumb
-    400200: jtBn_r_up_thumb1
-    400202: jtBn_r_up_thumb2
-    400204: jtBn_r_up_twist
-    400206: jtBn_r_upHand_Weapon
-    400208: jtBn_spline_
-    400210: jtBn_spline_1
-    400212: jtBn_spline_2
-    400214: Mesh
-    400216: Mesh 1
-    400218: Mesh 2
-    400220: Mesh 3
-    400222: polySurface217
-    400224: polySurface218
-    400226: polySurface219
-    400228: polySurface220
-    400230: polySurface221
-    400232: polySurface222
-    400234: polySurface223
-    400236: polySurface224
-    400238: polySurface225
-    400240: polySurface226
-    400242: polySurface227
-    400244: polySurface228
-    400246: polySurface229
-    400248: polySurface230
-    400250: polySurface231
-    400252: polySurface232
-    400254: polySurface233
-    400256: polySurface234
-    400258: polySurface235
-    400260: polySurface236
-    400262: polySurface237
-    400264: polySurface238
-    400266: polySurface239
-    400268: polySurface240
-    400270: polySurface241
-    400272: polySurface242
-    400274: polySurface243
-    400276: polySurface244
-    400278: polySurface245
-    400280: polySurface246
-    400282: polySurface247
-    400284: polySurface248
-    400286: polySurface249
-    400288: polySurface250
-    400290: polySurface251
-    400292: polySurface252
-    400294: polySurface253
-    400296: polySurface254
-    400298: polySurface255
-    400300: polySurface256
-    400302: polySurface257
-    400304: polySurface258
-    400306: polySurface259
-    400308: polySurface260
-    400310: polySurface261
-    400312: polySurface262
-    400314: polySurface263
-    400316: polySurface264
-    400318: polySurface374
-    400320: polySurface375
-    400322: polySurface376
-    400324: polySurface377
-    400326: polySurface378
-    400328: polySurface379
-    400330: polySurface380
-    400332: polySurface381
-    400334: polySurface382
-    400336: polySurface383
-    400338: polySurface384
-    400340: polySurface385
-    400342: polySurface386
-    400344: polySurface387
-    400346: polySurface388
-    400348: polySurface389
-    400350: polySurface390
-    400352: polySurface391
-    400354: polySurface392
-    400356: polySurface393
-    400358: polySurface394
-    400360: polySurface395
-    400362: polySurface396
-    400364: polySurface397
-    2100000: Char_material
-    2100002: Default_Material
-    4300000: polySurface217
-    4300002: polySurface218
-    4300004: polySurface239
-    4300006: polySurface240
-    4300008: Body
-    4300010: armo
-    4300012: polySurface374
-    4300014: polySurface375
-    7400000: Combo1
-    7400002: Idle
-    7400004: Walk
-    7400006: Attack1
-    7400008: Attack2
-    7400010: Combo2
-    7400012: Hit
-    7400014: Die
-    9500000: //RootNode
-    13700000: armo
-    13700002: Body
-    13700004: polySurface217
-    13700006: polySurface218
-    13700008: polySurface239
-    13700010: polySurface240
-    13700012: polySurface374
-    13700014: polySurface375
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Anubis
+  - first:
+      1: 100004
+    second: armo
+  - first:
+      1: 100006
+    second: armo 1
+  - first:
+      1: 100008
+    second: armo 10
+  - first:
+      1: 100010
+    second: armo 11
+  - first:
+      1: 100012
+    second: armo 2
+  - first:
+      1: 100014
+    second: armo 3
+  - first:
+      1: 100016
+    second: armo 4
+  - first:
+      1: 100018
+    second: armo 5
+  - first:
+      1: 100020
+    second: armo 6
+  - first:
+      1: 100022
+    second: armo 7
+  - first:
+      1: 100024
+    second: armo 8
+  - first:
+      1: 100026
+    second: armo 9
+  - first:
+      1: 100028
+    second: Body
+  - first:
+      1: 100030
+    second: Body 1
+  - first:
+      1: 100032
+    second: Body 10
+  - first:
+      1: 100034
+    second: Body 11
+  - first:
+      1: 100036
+    second: Body 2
+  - first:
+      1: 100038
+    second: Body 3
+  - first:
+      1: 100040
+    second: Body 4
+  - first:
+      1: 100042
+    second: Body 5
+  - first:
+      1: 100044
+    second: Body 6
+  - first:
+      1: 100046
+    second: Body 7
+  - first:
+      1: 100048
+    second: Body 8
+  - first:
+      1: 100050
+    second: Body 9
+  - first:
+      1: 100052
+    second: joint1
+  - first:
+      1: 100054
+    second: Joint_Bone
+  - first:
+      1: 100056
+    second: Joint_Object
+  - first:
+      1: 100058
+    second: jtBn_head
+  - first:
+      1: 100060
+    second: jtBn_Jaw
+  - first:
+      1: 100062
+    second: jtBn_l_ankle
+  - first:
+      1: 100064
+    second: jtBn_l_clavicle
+  - first:
+      1: 100066
+    second: jtBn_l_down_arm
+  - first:
+      1: 100068
+    second: jtBn_l_down_elbow
+  - first:
+      1: 100070
+    second: jtBn_l_down_index
+  - first:
+      1: 100072
+    second: jtBn_l_down_index1
+  - first:
+      1: 100074
+    second: jtBn_l_down_index2
+  - first:
+      1: 100076
+    second: jtBn_l_down_little
+  - first:
+      1: 100078
+    second: jtBn_l_down_little1
+  - first:
+      1: 100080
+    second: jtBn_l_down_little2
+  - first:
+      1: 100082
+    second: jtBn_l_down_mid
+  - first:
+      1: 100084
+    second: jtBn_l_down_mid1
+  - first:
+      1: 100086
+    second: jtBn_l_down_mid2
+  - first:
+      1: 100088
+    second: jtBn_l_down_thumb
+  - first:
+      1: 100090
+    second: jtBn_l_down_thumb1
+  - first:
+      1: 100092
+    second: jtBn_l_down_thumb2
+  - first:
+      1: 100094
+    second: jtBn_l_down_twist
+  - first:
+      1: 100096
+    second: jtBn_l_DownHand_Weapon
+  - first:
+      1: 100098
+    second: jtBn_l_hip
+  - first:
+      1: 100100
+    second: jtBn_l_knee
+  - first:
+      1: 100102
+    second: jtBn_l_up_arm
+  - first:
+      1: 100104
+    second: jtBn_l_up_elbow
+  - first:
+      1: 100106
+    second: jtBn_l_up_index
+  - first:
+      1: 100108
+    second: jtBn_l_up_index1
+  - first:
+      1: 100110
+    second: jtBn_l_up_index2
+  - first:
+      1: 100112
+    second: jtBn_l_up_little
+  - first:
+      1: 100114
+    second: jtBn_l_up_little1
+  - first:
+      1: 100116
+    second: jtBn_l_up_little2
+  - first:
+      1: 100118
+    second: jtBn_l_up_mid
+  - first:
+      1: 100120
+    second: jtBn_l_up_mid1
+  - first:
+      1: 100122
+    second: jtBn_l_up_mid2
+  - first:
+      1: 100124
+    second: jtBn_l_up_thumb
+  - first:
+      1: 100126
+    second: jtBn_l_up_thumb1
+  - first:
+      1: 100128
+    second: jtBn_l_up_thumb2
+  - first:
+      1: 100130
+    second: jtBn_l_up_twist
+  - first:
+      1: 100132
+    second: jtBn_l_upHand_Weapon
+  - first:
+      1: 100134
+    second: jtBn_neck
+  - first:
+      1: 100136
+    second: jtBn_r_ankle
+  - first:
+      1: 100138
+    second: jtBn_r_clavicle
+  - first:
+      1: 100140
+    second: jtBn_r_down_arm
+  - first:
+      1: 100142
+    second: jtBn_r_down_elbow
+  - first:
+      1: 100144
+    second: jtBn_r_down_index
+  - first:
+      1: 100146
+    second: jtBn_r_down_index1
+  - first:
+      1: 100148
+    second: jtBn_r_down_index2
+  - first:
+      1: 100150
+    second: jtBn_r_down_little
+  - first:
+      1: 100152
+    second: jtBn_r_down_little1
+  - first:
+      1: 100154
+    second: jtBn_r_down_little2
+  - first:
+      1: 100156
+    second: jtBn_r_down_mid
+  - first:
+      1: 100158
+    second: jtBn_r_down_mid1
+  - first:
+      1: 100160
+    second: jtBn_r_down_mid2
+  - first:
+      1: 100162
+    second: jtBn_r_down_thumb
+  - first:
+      1: 100164
+    second: jtBn_r_down_thumb1
+  - first:
+      1: 100166
+    second: jtBn_r_down_thumb2
+  - first:
+      1: 100168
+    second: jtBn_r_down_twist
+  - first:
+      1: 100170
+    second: jtBn_r_DownHand_Weapon
+  - first:
+      1: 100172
+    second: jtBn_r_hip
+  - first:
+      1: 100174
+    second: jtBn_r_knee
+  - first:
+      1: 100176
+    second: jtBn_r_up_arm
+  - first:
+      1: 100178
+    second: jtBn_r_up_elbow
+  - first:
+      1: 100180
+    second: jtBn_r_up_index
+  - first:
+      1: 100182
+    second: jtBn_r_up_index1
+  - first:
+      1: 100184
+    second: jtBn_r_up_index2
+  - first:
+      1: 100186
+    second: jtBn_r_up_little
+  - first:
+      1: 100188
+    second: jtBn_r_up_little1
+  - first:
+      1: 100190
+    second: jtBn_r_up_little2
+  - first:
+      1: 100192
+    second: jtBn_r_up_mid
+  - first:
+      1: 100194
+    second: jtBn_r_up_mid1
+  - first:
+      1: 100196
+    second: jtBn_r_up_mid2
+  - first:
+      1: 100198
+    second: jtBn_r_up_thumb
+  - first:
+      1: 100200
+    second: jtBn_r_up_thumb1
+  - first:
+      1: 100202
+    second: jtBn_r_up_thumb2
+  - first:
+      1: 100204
+    second: jtBn_r_up_twist
+  - first:
+      1: 100206
+    second: jtBn_r_upHand_Weapon
+  - first:
+      1: 100208
+    second: jtBn_spline_
+  - first:
+      1: 100210
+    second: jtBn_spline_1
+  - first:
+      1: 100212
+    second: jtBn_spline_2
+  - first:
+      1: 100214
+    second: Mesh
+  - first:
+      1: 100216
+    second: Mesh 1
+  - first:
+      1: 100218
+    second: Mesh 2
+  - first:
+      1: 100220
+    second: Mesh 3
+  - first:
+      1: 100222
+    second: polySurface217
+  - first:
+      1: 100224
+    second: polySurface218
+  - first:
+      1: 100226
+    second: polySurface219
+  - first:
+      1: 100228
+    second: polySurface220
+  - first:
+      1: 100230
+    second: polySurface221
+  - first:
+      1: 100232
+    second: polySurface222
+  - first:
+      1: 100234
+    second: polySurface223
+  - first:
+      1: 100236
+    second: polySurface224
+  - first:
+      1: 100238
+    second: polySurface225
+  - first:
+      1: 100240
+    second: polySurface226
+  - first:
+      1: 100242
+    second: polySurface227
+  - first:
+      1: 100244
+    second: polySurface228
+  - first:
+      1: 100246
+    second: polySurface229
+  - first:
+      1: 100248
+    second: polySurface230
+  - first:
+      1: 100250
+    second: polySurface231
+  - first:
+      1: 100252
+    second: polySurface232
+  - first:
+      1: 100254
+    second: polySurface233
+  - first:
+      1: 100256
+    second: polySurface234
+  - first:
+      1: 100258
+    second: polySurface235
+  - first:
+      1: 100260
+    second: polySurface236
+  - first:
+      1: 100262
+    second: polySurface237
+  - first:
+      1: 100264
+    second: polySurface238
+  - first:
+      1: 100266
+    second: polySurface239
+  - first:
+      1: 100268
+    second: polySurface240
+  - first:
+      1: 100270
+    second: polySurface241
+  - first:
+      1: 100272
+    second: polySurface242
+  - first:
+      1: 100274
+    second: polySurface243
+  - first:
+      1: 100276
+    second: polySurface244
+  - first:
+      1: 100278
+    second: polySurface245
+  - first:
+      1: 100280
+    second: polySurface246
+  - first:
+      1: 100282
+    second: polySurface247
+  - first:
+      1: 100284
+    second: polySurface248
+  - first:
+      1: 100286
+    second: polySurface249
+  - first:
+      1: 100288
+    second: polySurface250
+  - first:
+      1: 100290
+    second: polySurface251
+  - first:
+      1: 100292
+    second: polySurface252
+  - first:
+      1: 100294
+    second: polySurface253
+  - first:
+      1: 100296
+    second: polySurface254
+  - first:
+      1: 100298
+    second: polySurface255
+  - first:
+      1: 100300
+    second: polySurface256
+  - first:
+      1: 100302
+    second: polySurface257
+  - first:
+      1: 100304
+    second: polySurface258
+  - first:
+      1: 100306
+    second: polySurface259
+  - first:
+      1: 100308
+    second: polySurface260
+  - first:
+      1: 100310
+    second: polySurface261
+  - first:
+      1: 100312
+    second: polySurface262
+  - first:
+      1: 100314
+    second: polySurface263
+  - first:
+      1: 100316
+    second: polySurface264
+  - first:
+      1: 100318
+    second: polySurface374
+  - first:
+      1: 100320
+    second: polySurface375
+  - first:
+      1: 100322
+    second: polySurface376
+  - first:
+      1: 100324
+    second: polySurface377
+  - first:
+      1: 100326
+    second: polySurface378
+  - first:
+      1: 100328
+    second: polySurface379
+  - first:
+      1: 100330
+    second: polySurface380
+  - first:
+      1: 100332
+    second: polySurface381
+  - first:
+      1: 100334
+    second: polySurface382
+  - first:
+      1: 100336
+    second: polySurface383
+  - first:
+      1: 100338
+    second: polySurface384
+  - first:
+      1: 100340
+    second: polySurface385
+  - first:
+      1: 100342
+    second: polySurface386
+  - first:
+      1: 100344
+    second: polySurface387
+  - first:
+      1: 100346
+    second: polySurface388
+  - first:
+      1: 100348
+    second: polySurface389
+  - first:
+      1: 100350
+    second: polySurface390
+  - first:
+      1: 100352
+    second: polySurface391
+  - first:
+      1: 100354
+    second: polySurface392
+  - first:
+      1: 100356
+    second: polySurface393
+  - first:
+      1: 100358
+    second: polySurface394
+  - first:
+      1: 100360
+    second: polySurface395
+  - first:
+      1: 100362
+    second: polySurface396
+  - first:
+      1: 100364
+    second: polySurface397
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Anubis
+  - first:
+      4: 400004
+    second: armo
+  - first:
+      4: 400006
+    second: armo 1
+  - first:
+      4: 400008
+    second: armo 10
+  - first:
+      4: 400010
+    second: armo 11
+  - first:
+      4: 400012
+    second: armo 2
+  - first:
+      4: 400014
+    second: armo 3
+  - first:
+      4: 400016
+    second: armo 4
+  - first:
+      4: 400018
+    second: armo 5
+  - first:
+      4: 400020
+    second: armo 6
+  - first:
+      4: 400022
+    second: armo 7
+  - first:
+      4: 400024
+    second: armo 8
+  - first:
+      4: 400026
+    second: armo 9
+  - first:
+      4: 400028
+    second: Body
+  - first:
+      4: 400030
+    second: Body 1
+  - first:
+      4: 400032
+    second: Body 10
+  - first:
+      4: 400034
+    second: Body 11
+  - first:
+      4: 400036
+    second: Body 2
+  - first:
+      4: 400038
+    second: Body 3
+  - first:
+      4: 400040
+    second: Body 4
+  - first:
+      4: 400042
+    second: Body 5
+  - first:
+      4: 400044
+    second: Body 6
+  - first:
+      4: 400046
+    second: Body 7
+  - first:
+      4: 400048
+    second: Body 8
+  - first:
+      4: 400050
+    second: Body 9
+  - first:
+      4: 400052
+    second: joint1
+  - first:
+      4: 400054
+    second: Joint_Bone
+  - first:
+      4: 400056
+    second: Joint_Object
+  - first:
+      4: 400058
+    second: jtBn_head
+  - first:
+      4: 400060
+    second: jtBn_Jaw
+  - first:
+      4: 400062
+    second: jtBn_l_ankle
+  - first:
+      4: 400064
+    second: jtBn_l_clavicle
+  - first:
+      4: 400066
+    second: jtBn_l_down_arm
+  - first:
+      4: 400068
+    second: jtBn_l_down_elbow
+  - first:
+      4: 400070
+    second: jtBn_l_down_index
+  - first:
+      4: 400072
+    second: jtBn_l_down_index1
+  - first:
+      4: 400074
+    second: jtBn_l_down_index2
+  - first:
+      4: 400076
+    second: jtBn_l_down_little
+  - first:
+      4: 400078
+    second: jtBn_l_down_little1
+  - first:
+      4: 400080
+    second: jtBn_l_down_little2
+  - first:
+      4: 400082
+    second: jtBn_l_down_mid
+  - first:
+      4: 400084
+    second: jtBn_l_down_mid1
+  - first:
+      4: 400086
+    second: jtBn_l_down_mid2
+  - first:
+      4: 400088
+    second: jtBn_l_down_thumb
+  - first:
+      4: 400090
+    second: jtBn_l_down_thumb1
+  - first:
+      4: 400092
+    second: jtBn_l_down_thumb2
+  - first:
+      4: 400094
+    second: jtBn_l_down_twist
+  - first:
+      4: 400096
+    second: jtBn_l_DownHand_Weapon
+  - first:
+      4: 400098
+    second: jtBn_l_hip
+  - first:
+      4: 400100
+    second: jtBn_l_knee
+  - first:
+      4: 400102
+    second: jtBn_l_up_arm
+  - first:
+      4: 400104
+    second: jtBn_l_up_elbow
+  - first:
+      4: 400106
+    second: jtBn_l_up_index
+  - first:
+      4: 400108
+    second: jtBn_l_up_index1
+  - first:
+      4: 400110
+    second: jtBn_l_up_index2
+  - first:
+      4: 400112
+    second: jtBn_l_up_little
+  - first:
+      4: 400114
+    second: jtBn_l_up_little1
+  - first:
+      4: 400116
+    second: jtBn_l_up_little2
+  - first:
+      4: 400118
+    second: jtBn_l_up_mid
+  - first:
+      4: 400120
+    second: jtBn_l_up_mid1
+  - first:
+      4: 400122
+    second: jtBn_l_up_mid2
+  - first:
+      4: 400124
+    second: jtBn_l_up_thumb
+  - first:
+      4: 400126
+    second: jtBn_l_up_thumb1
+  - first:
+      4: 400128
+    second: jtBn_l_up_thumb2
+  - first:
+      4: 400130
+    second: jtBn_l_up_twist
+  - first:
+      4: 400132
+    second: jtBn_l_upHand_Weapon
+  - first:
+      4: 400134
+    second: jtBn_neck
+  - first:
+      4: 400136
+    second: jtBn_r_ankle
+  - first:
+      4: 400138
+    second: jtBn_r_clavicle
+  - first:
+      4: 400140
+    second: jtBn_r_down_arm
+  - first:
+      4: 400142
+    second: jtBn_r_down_elbow
+  - first:
+      4: 400144
+    second: jtBn_r_down_index
+  - first:
+      4: 400146
+    second: jtBn_r_down_index1
+  - first:
+      4: 400148
+    second: jtBn_r_down_index2
+  - first:
+      4: 400150
+    second: jtBn_r_down_little
+  - first:
+      4: 400152
+    second: jtBn_r_down_little1
+  - first:
+      4: 400154
+    second: jtBn_r_down_little2
+  - first:
+      4: 400156
+    second: jtBn_r_down_mid
+  - first:
+      4: 400158
+    second: jtBn_r_down_mid1
+  - first:
+      4: 400160
+    second: jtBn_r_down_mid2
+  - first:
+      4: 400162
+    second: jtBn_r_down_thumb
+  - first:
+      4: 400164
+    second: jtBn_r_down_thumb1
+  - first:
+      4: 400166
+    second: jtBn_r_down_thumb2
+  - first:
+      4: 400168
+    second: jtBn_r_down_twist
+  - first:
+      4: 400170
+    second: jtBn_r_DownHand_Weapon
+  - first:
+      4: 400172
+    second: jtBn_r_hip
+  - first:
+      4: 400174
+    second: jtBn_r_knee
+  - first:
+      4: 400176
+    second: jtBn_r_up_arm
+  - first:
+      4: 400178
+    second: jtBn_r_up_elbow
+  - first:
+      4: 400180
+    second: jtBn_r_up_index
+  - first:
+      4: 400182
+    second: jtBn_r_up_index1
+  - first:
+      4: 400184
+    second: jtBn_r_up_index2
+  - first:
+      4: 400186
+    second: jtBn_r_up_little
+  - first:
+      4: 400188
+    second: jtBn_r_up_little1
+  - first:
+      4: 400190
+    second: jtBn_r_up_little2
+  - first:
+      4: 400192
+    second: jtBn_r_up_mid
+  - first:
+      4: 400194
+    second: jtBn_r_up_mid1
+  - first:
+      4: 400196
+    second: jtBn_r_up_mid2
+  - first:
+      4: 400198
+    second: jtBn_r_up_thumb
+  - first:
+      4: 400200
+    second: jtBn_r_up_thumb1
+  - first:
+      4: 400202
+    second: jtBn_r_up_thumb2
+  - first:
+      4: 400204
+    second: jtBn_r_up_twist
+  - first:
+      4: 400206
+    second: jtBn_r_upHand_Weapon
+  - first:
+      4: 400208
+    second: jtBn_spline_
+  - first:
+      4: 400210
+    second: jtBn_spline_1
+  - first:
+      4: 400212
+    second: jtBn_spline_2
+  - first:
+      4: 400214
+    second: Mesh
+  - first:
+      4: 400216
+    second: Mesh 1
+  - first:
+      4: 400218
+    second: Mesh 2
+  - first:
+      4: 400220
+    second: Mesh 3
+  - first:
+      4: 400222
+    second: polySurface217
+  - first:
+      4: 400224
+    second: polySurface218
+  - first:
+      4: 400226
+    second: polySurface219
+  - first:
+      4: 400228
+    second: polySurface220
+  - first:
+      4: 400230
+    second: polySurface221
+  - first:
+      4: 400232
+    second: polySurface222
+  - first:
+      4: 400234
+    second: polySurface223
+  - first:
+      4: 400236
+    second: polySurface224
+  - first:
+      4: 400238
+    second: polySurface225
+  - first:
+      4: 400240
+    second: polySurface226
+  - first:
+      4: 400242
+    second: polySurface227
+  - first:
+      4: 400244
+    second: polySurface228
+  - first:
+      4: 400246
+    second: polySurface229
+  - first:
+      4: 400248
+    second: polySurface230
+  - first:
+      4: 400250
+    second: polySurface231
+  - first:
+      4: 400252
+    second: polySurface232
+  - first:
+      4: 400254
+    second: polySurface233
+  - first:
+      4: 400256
+    second: polySurface234
+  - first:
+      4: 400258
+    second: polySurface235
+  - first:
+      4: 400260
+    second: polySurface236
+  - first:
+      4: 400262
+    second: polySurface237
+  - first:
+      4: 400264
+    second: polySurface238
+  - first:
+      4: 400266
+    second: polySurface239
+  - first:
+      4: 400268
+    second: polySurface240
+  - first:
+      4: 400270
+    second: polySurface241
+  - first:
+      4: 400272
+    second: polySurface242
+  - first:
+      4: 400274
+    second: polySurface243
+  - first:
+      4: 400276
+    second: polySurface244
+  - first:
+      4: 400278
+    second: polySurface245
+  - first:
+      4: 400280
+    second: polySurface246
+  - first:
+      4: 400282
+    second: polySurface247
+  - first:
+      4: 400284
+    second: polySurface248
+  - first:
+      4: 400286
+    second: polySurface249
+  - first:
+      4: 400288
+    second: polySurface250
+  - first:
+      4: 400290
+    second: polySurface251
+  - first:
+      4: 400292
+    second: polySurface252
+  - first:
+      4: 400294
+    second: polySurface253
+  - first:
+      4: 400296
+    second: polySurface254
+  - first:
+      4: 400298
+    second: polySurface255
+  - first:
+      4: 400300
+    second: polySurface256
+  - first:
+      4: 400302
+    second: polySurface257
+  - first:
+      4: 400304
+    second: polySurface258
+  - first:
+      4: 400306
+    second: polySurface259
+  - first:
+      4: 400308
+    second: polySurface260
+  - first:
+      4: 400310
+    second: polySurface261
+  - first:
+      4: 400312
+    second: polySurface262
+  - first:
+      4: 400314
+    second: polySurface263
+  - first:
+      4: 400316
+    second: polySurface264
+  - first:
+      4: 400318
+    second: polySurface374
+  - first:
+      4: 400320
+    second: polySurface375
+  - first:
+      4: 400322
+    second: polySurface376
+  - first:
+      4: 400324
+    second: polySurface377
+  - first:
+      4: 400326
+    second: polySurface378
+  - first:
+      4: 400328
+    second: polySurface379
+  - first:
+      4: 400330
+    second: polySurface380
+  - first:
+      4: 400332
+    second: polySurface381
+  - first:
+      4: 400334
+    second: polySurface382
+  - first:
+      4: 400336
+    second: polySurface383
+  - first:
+      4: 400338
+    second: polySurface384
+  - first:
+      4: 400340
+    second: polySurface385
+  - first:
+      4: 400342
+    second: polySurface386
+  - first:
+      4: 400344
+    second: polySurface387
+  - first:
+      4: 400346
+    second: polySurface388
+  - first:
+      4: 400348
+    second: polySurface389
+  - first:
+      4: 400350
+    second: polySurface390
+  - first:
+      4: 400352
+    second: polySurface391
+  - first:
+      4: 400354
+    second: polySurface392
+  - first:
+      4: 400356
+    second: polySurface393
+  - first:
+      4: 400358
+    second: polySurface394
+  - first:
+      4: 400360
+    second: polySurface395
+  - first:
+      4: 400362
+    second: polySurface396
+  - first:
+      4: 400364
+    second: polySurface397
+  - first:
+      21: 2100000
+    second: Char_material
+  - first:
+      21: 2100002
+    second: Default_Material
+  - first:
+      43: 4300000
+    second: polySurface217
+  - first:
+      43: 4300002
+    second: polySurface218
+  - first:
+      43: 4300004
+    second: polySurface239
+  - first:
+      43: 4300006
+    second: polySurface240
+  - first:
+      43: 4300008
+    second: Body
+  - first:
+      43: 4300010
+    second: armo
+  - first:
+      43: 4300012
+    second: polySurface374
+  - first:
+      43: 4300014
+    second: polySurface375
+  - first:
+      74: 7400000
+    second: Combo1
+  - first:
+      74: 7400002
+    second: Idle
+  - first:
+      74: 7400004
+    second: Walk
+  - first:
+      74: 7400006
+    second: Attack1
+  - first:
+      74: 7400008
+    second: Attack2
+  - first:
+      74: 7400010
+    second: Combo2
+  - first:
+      74: 7400012
+    second: Hit
+  - first:
+      74: 7400014
+    second: Die
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: armo
+  - first:
+      137: 13700002
+    second: Body
+  - first:
+      137: 13700004
+    second: polySurface217
+  - first:
+      137: 13700006
+    second: polySurface218
+  - first:
+      137: 13700008
+    second: polySurface239
+  - first:
+      137: 13700010
+    second: polySurface240
+  - first:
+      137: 13700012
+    second: polySurface374
+  - first:
+      137: 13700014
+    second: polySurface375
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -407,6 +1193,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -415,6 +1202,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -426,6 +1214,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Combo1
       takeName: Combo1
+      internalID: 0
       firstFrame: 0
       lastFrame: 92
       wrapMode: 0
@@ -475,6 +1264,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: Idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 50
       wrapMode: 0
@@ -503,6 +1293,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Walk
+      internalID: 0
       firstFrame: 0
       lastFrame: 35
       wrapMode: 0
@@ -523,7 +1314,21 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.54446006
+        functionName: AnubisStep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.0035714286
+        functionName: AnubisStep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -531,6 +1336,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack1
       takeName: Attack1
+      internalID: 0
       firstFrame: 0
       lastFrame: 55
       wrapMode: 0
@@ -566,6 +1372,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack2
       takeName: Attack2
+      internalID: 0
       firstFrame: 0
       lastFrame: 55
       wrapMode: 0
@@ -601,6 +1408,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Combo2
       takeName: Combo2
+      internalID: 0
       firstFrame: 0
       lastFrame: 84
       wrapMode: 0
@@ -643,6 +1451,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit
       takeName: Hit
+      internalID: 0
       firstFrame: 0
       lastFrame: 27
       wrapMode: 0
@@ -671,6 +1480,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Die
       takeName: Die
+      internalID: 0
       firstFrame: 0
       lastFrame: 92
       wrapMode: 0
@@ -702,21 +1512,33 @@ ModelImporter:
     globalScale: 15
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -724,10 +1546,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -737,14 +1562,18 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 15
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

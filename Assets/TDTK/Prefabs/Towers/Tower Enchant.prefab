@@ -181,8 +181,8 @@ MonoBehaviour:
   resetTargetOnAttack: 0
   prefabID: 10
   instanceID: -1
-  unitName: Enchant Tower
-  icon: {fileID: 21300000, guid: 1080a5ef94bbaf245b2729db3f394d07, type: 3}
+  unitName: Zap Tower
+  icon: {fileID: 21300000, guid: 508229c103c92a04fb3a57d50f14f9c9, type: 3}
   desp: A single target tower with chance to deal critical damage with each attack.
   canBeAttacked: 1
   canBeTargeted: 1
@@ -323,7 +323,7 @@ MonoBehaviour:
     - 0
   effectImmunityList: 
   attackTargetList: []
-  shootObject: {fileID: 114917850592720432, guid: 750475b1eeb3e7b4bbf6522e9fffdb01,
+  shootObject: {fileID: 114917850592720432, guid: 4396a6886c25532488f44b54090cc890,
     type: 3}
   shootPoint:
   - {fileID: 4563215396708194}

@@ -233,7 +233,7 @@ namespace TDTK{
 					effectBuilt.Spawn(GetPos(), Quaternion.identity);
 					AudioManager.OnBuildComplete();
 					AudioManager.PlaySound(soundBuilt);
-					AudioManager.PlaySoundW(TowerBuilt, gameObject);
+					//AudioManager.PlaySoundW(TowerBuilt, gameObject);
 					
 					OnSupportTowerBuilt();
 				}

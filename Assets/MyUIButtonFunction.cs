@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class MyUIButtonFunction : MonoBehaviour
 {
+
+    public static MyUIButtonFunction instance;
+
+    void Awake(){
+        instance = this;
+    }
+
+
     [SerializeField] AK.Wwise.Event uiClick;
     [SerializeField] AK.Wwise.Event uiHover;
     [SerializeField] AK.Wwise.Event uiNegative;
@@ -39,5 +47,6 @@ public class MyUIButtonFunction : MonoBehaviour
     public void HPLose()
     {
         hpLose.Post(gameObject);
+        Debug.Log("hplose");
     }
 }

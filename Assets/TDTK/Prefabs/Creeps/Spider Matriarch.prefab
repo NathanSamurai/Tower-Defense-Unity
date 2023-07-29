@@ -494,7 +494,7 @@ MonoBehaviour:
   supportTgtList: []
   supportSrcList: []
   reverse: 0
-  spawnerPrefab: {fileID: 114818404139447466, guid: 1113597e476372c4cb9e40e36c946129,
+  spawnerPrefab: {fileID: 114818404139447466, guid: d1c3b64c61ababa4d98ba182199f0b3e,
     type: 3}
   spawnerCount: 1
   cooldown_Spawner: 5
@@ -504,7 +504,7 @@ MonoBehaviour:
     mulSpd: 0.5
     mulExp: 0.5
     mulRsc: 0.5
-  spawnOnDestroyed: {fileID: 114818404139447466, guid: 1113597e476372c4cb9e40e36c946129,
+  spawnOnDestroyed: {fileID: 114818404139447466, guid: d1c3b64c61ababa4d98ba182199f0b3e,
     type: 3}
   sodCount: 5
   sodOverride:

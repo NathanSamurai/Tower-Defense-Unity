@@ -25,6 +25,7 @@ MonoBehaviour:
   - {fileID: 1368356499209674, guid: d117a2704c1b2dc4cbacbd8c6be846e0, type: 3}
   - {fileID: 1368356499209674, guid: 7bad5bc3d584ef64e97344f7a0361333, type: 3}
   - {fileID: 1368356499209674, guid: a1b5c6e2cb3e6c742bac66313343ee99, type: 3}
+  - {fileID: 1368356499209674, guid: d1c3b64c61ababa4d98ba182199f0b3e, type: 3}
   creepList:
   - {fileID: 114762694574170050, guid: dce61169ecc869f4594a7e45d0265c7a, type: 3}
   - {fileID: 114089636255029794, guid: 930e6406997a27542a548b66c144e9b5, type: 3}
@@ -38,4 +39,5 @@ MonoBehaviour:
   - {fileID: 114818404139447466, guid: d117a2704c1b2dc4cbacbd8c6be846e0, type: 3}
   - {fileID: 114818404139447466, guid: 7bad5bc3d584ef64e97344f7a0361333, type: 3}
   - {fileID: 114818404139447466, guid: a1b5c6e2cb3e6c742bac66313343ee99, type: 3}
+  - {fileID: 114818404139447466, guid: d1c3b64c61ababa4d98ba182199f0b3e, type: 3}
   copiedFromOldDB: 0

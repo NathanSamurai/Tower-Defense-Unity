@@ -1,0 +1,675 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1033535460803082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4754821197074078}
+  - component: {fileID: 33065081902363458}
+  - component: {fileID: 23747808735834918}
+  m_Layer: 0
+  m_Name: TowerTurret3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4754821197074078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033535460803082}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.019999912, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.100000106}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4399252010663336}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!33 &33065081902363458
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033535460803082}
+  m_Mesh: {fileID: 4300068, guid: afb06ef5a371cb14fa1a534801a2fd8a, type: 3}
+--- !u!23 &23747808735834918
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033535460803082}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 02644797d6d7d9e41b29e39eccd1fd61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1136647811518820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4600742426814438}
+  - component: {fileID: 114544440111874162}
+  - component: {fileID: 135443623375571478}
+  - component: {fileID: 1824378954986986265}
+  m_Layer: 28
+  m_Name: Tower_Mine 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4600742426814438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136647811518820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 0, z: 3.5}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4399252010663336}
+  - {fileID: 4249552940114186}
+  - {fileID: 8662059739069065795}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114544440111874162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136647811518820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad507a3dcc61094483b4a428cf99d91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetTargetOnAttack: 0
+  prefabID: 1
+  instanceID: -1
+  unitName: Mine
+  icon: {fileID: 21300000, guid: 30b3fdf13c1423a4a9198831452fafb5, type: 3}
+  desp: Explode when approach by a creep, causing high AOE damage
+  canBeAttacked: 0
+  canBeTargeted: 0
+  unitRadius: 0.25
+  targetPoint: {fileID: 0}
+  hp: 10
+  sh: 10
+  shStagger: 0
+  cooldown: 0
+  cooldownAOE: 0
+  cooldownMine: 0
+  cooldownRsc: 0
+  level: 0
+  statsList:
+  - editTurret: 0
+    editAOE: 1
+    editMine: 1
+    buildDuration: 1.5
+    sellDuration: 0.5
+    expToNextUpgrade: 10
+    cost:
+    - 6
+    - 0
+    sellValue:
+    - 6
+    - 0
+    hp: 1
+    sh: 0
+    shRegen: 0
+    shStagger: 0
+    hpRate: 0
+    shRate: 0
+    armorType: 0
+    damageType: 0
+    speed: 0
+    dodge: 0
+    dmgReduc: 0
+    critReduc: 0
+    hit: 1
+    damageMin: 10
+    damageMax: 15
+    attackRange: 5
+    aoeRange: 1
+    cooldown: 4
+    critChance: 0
+    critMultiplier: 0
+    effectOnHitChance: 1
+    overrideExistingEffect: 0
+    effectOnHitIDList: 
+    hit_AOE: 1
+    damageMin_AOE: 2
+    damageMax_AOE: 2
+    attackRange_AOE: 2
+    cooldown_AOE: 1
+    critChance_AOE: 0
+    critMultiplier_AOE: 0
+    effectOnHitChance_AOE: 1
+    overrideExistingEffect_AOE: 0
+    effectOnHitIDList_AOE: 
+    hit_Mine: 1
+    damageMin_Mine: 5
+    damageMax_Mine: 8
+    aoeRange_Mine: 3
+    cooldown_Mine: 1
+    critChance_Mine: 0
+    critMultiplier_Mine: 0
+    effectOnHitChance_Mine: 1
+    overrideExistingEffect_Mine: 0
+    effectOnHitIDList_Mine: 
+    attackRange_Support: 2
+    overrideExistingEffect_Support: 0
+    effectOnHitIDList_Support: 
+    cooldown_Rsc: 1
+    rscGain:
+    - 0
+    - 0
+  effectImmunityList: 
+  attackTargetList: []
+  shootObject: {fileID: 114266115900946412, guid: 09a463b997518ca4ba2b0574c697a0c1,
+    type: 3}
+  shootPoint: []
+  shootPointSpacing: 0.2
+  shootEffObj_AOE:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  shootEffObj_Resource:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  shootEffObj_Mine:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  shootEffectDuration: 0
+  turretPivot: {fileID: 0}
+  barrelPivot: {fileID: 0}
+  aimInXAxis: 1
+  snapAiming: 1
+  aimSpeed: 20
+  aimed: 0
+  targetMode: 0
+  targetCountPerAttack: 1
+  useLOSTargeting: 0
+  targetingFov: 360
+  targetingDir: 0
+  activeEffectMod:
+    prefabID: -1
+    instanceID: -1
+    icon: {fileID: 0}
+    name: Item
+    desp: Item's description
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 0
+    stackable: 0
+    duration: 1
+    durationRemain: 1
+    effType: 0
+    stun: 0
+    stats:
+      editTurret: 0
+      editAOE: 0
+      editMine: 0
+      buildDuration: 1
+      sellDuration: 1
+      expToNextUpgrade: 10
+      cost: []
+      sellValue: []
+      hp: 5
+      sh: 0
+      shRegen: 0.5
+      shStagger: 3
+      hpRate: 0
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 3
+      dodge: 0
+      dmgReduc: 0
+      critReduc: 0
+      hit: 1
+      damageMin: 2
+      damageMax: 2
+      attackRange: 2
+      aoeRange: 0
+      cooldown: 1
+      critChance: 0
+      critMultiplier: 0
+      effectOnHitChance: 1
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 1
+      damageMin_AOE: 2
+      damageMax_AOE: 2
+      attackRange_AOE: 2
+      cooldown_AOE: 1
+      critChance_AOE: 0
+      critMultiplier_AOE: 0
+      effectOnHitChance_AOE: 1
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 1
+      damageMin_Mine: 2
+      damageMax_Mine: 2
+      aoeRange_Mine: 0
+      cooldown_Mine: 1
+      critChance_Mine: 0
+      critMultiplier_Mine: 0
+      effectOnHitChance_Mine: 1
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 2
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 1
+      rscGain: []
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 0}
+  activeEffectMul:
+    prefabID: -1
+    instanceID: -1
+    icon: {fileID: 0}
+    name: Item
+    desp: Item's description
+    ID: 0
+    srcType: 4
+    srcPrefabID: 0
+    fromSupport: 0
+    stack: 0
+    ignoreSource: 0
+    stackable: 0
+    duration: 1
+    durationRemain: 1
+    effType: 0
+    stun: 0
+    stats:
+      editTurret: 0
+      editAOE: 0
+      editMine: 0
+      buildDuration: 1
+      sellDuration: 1
+      expToNextUpgrade: 10
+      cost: []
+      sellValue: []
+      hp: 5
+      sh: 0
+      shRegen: 0.5
+      shStagger: 3
+      hpRate: 0
+      shRate: 0
+      armorType: 0
+      damageType: 0
+      speed: 3
+      dodge: 0
+      dmgReduc: 0
+      critReduc: 0
+      hit: 1
+      damageMin: 2
+      damageMax: 2
+      attackRange: 2
+      aoeRange: 0
+      cooldown: 1
+      critChance: 0
+      critMultiplier: 0
+      effectOnHitChance: 1
+      overrideExistingEffect: 0
+      effectOnHitIDList: 
+      hit_AOE: 1
+      damageMin_AOE: 2
+      damageMax_AOE: 2
+      attackRange_AOE: 2
+      cooldown_AOE: 1
+      critChance_AOE: 0
+      critMultiplier_AOE: 0
+      effectOnHitChance_AOE: 1
+      overrideExistingEffect_AOE: 0
+      effectOnHitIDList_AOE: 
+      hit_Mine: 1
+      damageMin_Mine: 2
+      damageMax_Mine: 2
+      aoeRange_Mine: 0
+      cooldown_Mine: 1
+      critChance_Mine: 0
+      critMultiplier_Mine: 0
+      effectOnHitChance_Mine: 1
+      overrideExistingEffect_Mine: 0
+      effectOnHitIDList_Mine: 
+      attackRange_Support: 2
+      overrideExistingEffect_Support: 0
+      effectOnHitIDList_Support: 
+      cooldown_Rsc: 1
+      rscGain: []
+    hitVisualEffect:
+      obj: {fileID: 0}
+      autoDestroy: 1
+      duration: 1.5
+    activeVisualEffect: {fileID: 0}
+  allEffectList: []
+  animatorT: {fileID: 0}
+  clipIdle: {fileID: 0}
+  clipHit: {fileID: 0}
+  clipDestroyed: {fileID: 0}
+  clipAttack: {fileID: 0}
+  animationAttackDelay: 0
+  clipMove: {fileID: 0}
+  clipSpawn: {fileID: 0}
+  clipDestination: {fileID: 0}
+  clipConstruct: {fileID: 0}
+  clipDeconstruct: {fileID: 0}
+  towerType: 4
+  isTurret: 0
+  isAOE: 0
+  isSupport: 0
+  isResource: 0
+  isMine: 1
+  targetGroup: 0
+  activeBetweenWave: 0
+  isPreview: 0
+  prebuilt: 0
+  disableSelling: 0
+  lifeCostOnDestroyed: 0
+  hideInInspector: 0
+  constructState: 0
+  limitInScene: 0
+  destroyOnTrigger: 1
+  effectBuilding:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  effectBuilt:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  effectSold:
+    obj: {fileID: 0}
+    autoDestroy: 1
+    duration: 1.5
+  effectDestroyed:
+    obj: {fileID: 1010808949405068, guid: be5cff6f8521a6a4eb8dd90447f21503, type: 3}
+    autoDestroy: 1
+    duration: 1.5
+  soundBuilding: {fileID: 0}
+  soundBuilt: {fileID: 0}
+  soundUpgrading: {fileID: 0}
+  soundUpgraded: {fileID: 0}
+  soundSold: {fileID: 0}
+  soundDestroyed: {fileID: 0}
+  TowerSold:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4e3b24078647c7a40bdf6af4743553ee,
+      type: 2}
+  TowerBuilt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7b785d2fa1c05dd46abf9150a20806fd,
+      type: 2}
+  TowerBuilding:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerUpgrade:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerUpgrading:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerDestroyed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 61d88b994cd64984b866e89238a3094f,
+      type: 2}
+  radius: 0.5
+  supportTgtList: []
+  supportSrcList: []
+  buildPlatform: {fileID: 0}
+  nodeID: 0
+  unlockUpgradeViaPerk: 0
+  upgradeTowerList: []
+--- !u!135 &135443623375571478
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136647811518820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1824378954986986265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136647811518820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2d886ae7107b848a36931959520462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!1 &1351676702565996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4249552940114186}
+  m_Layer: 0
+  m_Name: TargetPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4249552940114186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351676702565996}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.8571427, y: 2.8571427, z: 2.8571427}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4600742426814438}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1386795908451606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4399252010663336}
+  m_Layer: 0
+  m_Name: StaticMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4399252010663336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386795908451606}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4754821197074078}
+  m_Father: {fileID: 4600742426814438}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5506663461642946680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4600742426814438}
+    m_Modifications:
+    - target: {fileID: 2005709811570513950, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_Name
+      value: Mine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4c4051ec385c7a4b907b486d786040d, type: 3}
+--- !u!4 &8662059739069065795 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3773533038746886715, guid: f4c4051ec385c7a4b907b486d786040d,
+    type: 3}
+  m_PrefabInstance: {fileID: 5506663461642946680}
+  m_PrefabAsset: {fileID: 0}
