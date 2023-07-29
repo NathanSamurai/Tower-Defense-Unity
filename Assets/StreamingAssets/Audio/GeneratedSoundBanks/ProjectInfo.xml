@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Tower Defense Wwise" GUID="{FAA4BDA2-8A27-4558-AC44-97F5B206DE05}" Generator="2022.1.3.8179"/>
+	<CacheRoot>../../../../../Tower Defense Wwise/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{0C4ED008-E56F-428B-9DD9-7339930D11CB}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../Tower Defense Wwise/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{CE55264E-AE89-489C-9E6C-AF022089EE9D}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{5BEE71A3-AD6B-2427-40B3-83BCFBF8DEED}</FileHash>
+</ProjectInfo>
