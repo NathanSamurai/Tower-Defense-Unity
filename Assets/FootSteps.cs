@@ -5,9 +5,10 @@ using UnityEngine;
 public class FootSteps : MonoBehaviour
 {
     [SerializeField] AK.Wwise.Event footStep;
-	
-    void AnubisStep(){
+
+    public void AnubisStep(){
         footStep.Post(gameObject);
+        Debug.Log("step");
     }
 
 }

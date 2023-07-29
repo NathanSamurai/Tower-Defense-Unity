@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 4036725126081986}
   - component: {fileID: 114818404139447466}
   - component: {fileID: 135198367364419382}
-  - component: {fileID: 36750534445733120}
   m_Layer: 27
   m_Name: Anubis
   m_TagString: Untagged
@@ -438,18 +437,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.3
   m_Center: {x: 0, y: 0.3, z: 0}
---- !u!114 &36750534445733120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1368356499209674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef3d3066af020784293d1e92d63a8780, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3369187380314383392
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,6 +891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3369187380314093588}
   - component: {fileID: 3369187380321802228}
+  - component: {fileID: 3782898922752455433}
   m_Layer: 0
   m_Name: Anubis
   m_TagString: Untagged
@@ -949,6 +937,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3782898922752455433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3369187380314383412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3d3066af020784293d1e92d63a8780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footStep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 010cda7ec7ae59d4aa47b3bc8762d6de,
+      type: 2}
 --- !u!1 &3369187380314383414
 GameObject:
   m_ObjectHideFlags: 0

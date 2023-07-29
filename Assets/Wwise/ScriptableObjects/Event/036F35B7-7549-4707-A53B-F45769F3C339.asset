@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4b563abc4d997245a153d84fbca92df, type: 3}
+  m_Name: 036F35B7-7549-4707-A53B-F45769F3C339
+  m_EditorClassIdentifier: 
+  objectName: GolemStep
+  id: 1537521749
+  guid: 036F35B7-7549-4707-A53B-F45769F3C339
