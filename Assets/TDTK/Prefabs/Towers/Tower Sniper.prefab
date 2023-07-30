@@ -74,7 +74,7 @@ MonoBehaviour:
     sellDuration: 0.5
     expToNextUpgrade: 10
     cost:
-    - 20
+    - 50
     - 0
     sellValue:
     - 20
@@ -95,7 +95,7 @@ MonoBehaviour:
     damageMin: 10
     damageMax: 12
     attackRange: 15
-    aoeRange: 1
+    aoeRange: 0
     cooldown: 2
     critChance: 0
     critMultiplier: 0
@@ -136,7 +136,7 @@ MonoBehaviour:
     sellDuration: 0.5
     expToNextUpgrade: 10
     cost:
-    - 10
+    - 100
     - 0
     sellValue:
     - 30
@@ -157,8 +157,8 @@ MonoBehaviour:
     damageMin: 20
     damageMax: 30
     attackRange: 20
-    aoeRange: 1
-    cooldown: 2
+    aoeRange: 0
+    cooldown: 1.5
     critChance: 0
     critMultiplier: 0
     effectOnHitChance: 0

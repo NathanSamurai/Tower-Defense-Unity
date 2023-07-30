@@ -204,7 +204,7 @@ MonoBehaviour:
     sellDuration: 0.5
     expToNextUpgrade: 10
     cost:
-    - 15
+    - 50
     - 0
     sellValue:
     - 15
@@ -226,7 +226,7 @@ MonoBehaviour:
     damageMax: 2
     attackRange: 10
     aoeRange: 1
-    cooldown: 0.7
+    cooldown: 3
     critChance: 0
     critMultiplier: 1.5
     effectOnHitChance: 1
@@ -260,16 +260,16 @@ MonoBehaviour:
     - 0
     - 0
   - editTurret: 1
-    editAOE: 0
+    editAOE: 1
     editMine: 0
     buildDuration: 1.5
     sellDuration: 0.5
     expToNextUpgrade: 10
     cost:
-    - 15
+    - 120
     - 0
     sellValue:
-    - 15
+    - 30
     - 0
     hp: 200
     sh: 0
@@ -288,7 +288,7 @@ MonoBehaviour:
     damageMax: 3
     attackRange: 10
     aoeRange: 0
-    cooldown: 0.7
+    cooldown: 2
     critChance: 0
     critMultiplier: 1.5
     effectOnHitChance: 1

@@ -108,7 +108,7 @@ MonoBehaviour:
     stack: 0
     ignoreSource: 0
     stackable: 0
-    duration: 5
+    duration: 1.2
     durationRemain: 1
     effType: 1
     stun: 0

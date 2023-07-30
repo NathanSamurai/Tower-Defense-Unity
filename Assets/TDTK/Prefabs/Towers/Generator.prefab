@@ -84,7 +84,7 @@ MonoBehaviour:
   prefabID: 12
   instanceID: -1
   unitName: Generator
-  icon: {fileID: 21300000, guid: efac9f9678ab56b41be9583415112afa, type: 3}
+  icon: {fileID: 21300000, guid: 9e211e70dcd3e0f45b73074fd17ad3a3, type: 3}
   desp: Generate resource over time
   canBeAttacked: 1
   canBeTargeted: 1
@@ -106,7 +106,7 @@ MonoBehaviour:
     sellDuration: 0.5
     expToNextUpgrade: 10
     cost:
-    - 30
+    - 75
     - 0
     sellValue:
     - 30
@@ -159,7 +159,7 @@ MonoBehaviour:
     effectOnHitIDList_Support: 
     cooldown_Rsc: 1
     rscGain:
-    - 10
+    - 1
     - 0
   effectImmunityList: 
   attackTargetList: []

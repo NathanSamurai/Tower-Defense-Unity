@@ -177,7 +177,7 @@ namespace TDTK{
 		
 		public static void OnLostLife(){ 
 			if(instance!=null){
-				lostLifeScriptReference.lifeLostW.Post(lostLifeScriptReference.lifeLostSource);
+				lostLifeScriptReference.lifeLostW.Post(lostLifeScriptReference.Casetta);
 				//MyUIButtonFunction.instance.HPLose();
 			}
 			

@@ -189,7 +189,7 @@ MonoBehaviour:
     expToNextUpgrade: 10
     cost: []
     sellValue: []
-    hp: 8
+    hp: 25
     sh: 0
     shRegen: 0.5
     shStagger: 2
@@ -461,7 +461,7 @@ MonoBehaviour:
   lifeGainedOnDestroyed: 0
   expGainOnDestroyed: 0
   rscGainOnDestroyed: 0100000000000000
-  lifeLostOnDestination: 1
+  lifeLostOnDestination: 6
   effectSpawn:
     obj: {fileID: 0}
     autoDestroy: 1
@@ -510,7 +510,7 @@ MonoBehaviour:
   sodOverride:
     mulHP: 0.5
     mulSH: 0.5
-    mulSpd: 0.5
+    mulSpd: 0.8
     mulExp: 0.5
     mulRsc: 0.5
 --- !u!135 &135198367364419382

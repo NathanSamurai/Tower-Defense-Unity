@@ -136,7 +136,7 @@ MonoBehaviour:
   prefabID: 1
   instanceID: -1
   unitName: Mine
-  icon: {fileID: 21300000, guid: 30b3fdf13c1423a4a9198831452fafb5, type: 3}
+  icon: {fileID: 21300000, guid: d6315ee1e06d2cf42bd2940be5b7b190, type: 3}
   desp: Explode when approach by a creep, causing high AOE damage
   canBeAttacked: 0
   canBeTargeted: 0
@@ -197,15 +197,77 @@ MonoBehaviour:
     overrideExistingEffect_AOE: 0
     effectOnHitIDList_AOE: 
     hit_Mine: 1
-    damageMin_Mine: 5
-    damageMax_Mine: 8
+    damageMin_Mine: 10
+    damageMax_Mine: 12
     aoeRange_Mine: 3
     cooldown_Mine: 1
     critChance_Mine: 0
     critMultiplier_Mine: 0
     effectOnHitChance_Mine: 1
     overrideExistingEffect_Mine: 0
-    effectOnHitIDList_Mine: 
+    effectOnHitIDList_Mine: 01000000
+    attackRange_Support: 2
+    overrideExistingEffect_Support: 0
+    effectOnHitIDList_Support: 
+    cooldown_Rsc: 1
+    rscGain:
+    - 0
+    - 0
+  - editTurret: 0
+    editAOE: 0
+    editMine: 1
+    buildDuration: 1.5
+    sellDuration: 0.5
+    expToNextUpgrade: 10
+    cost:
+    - 6
+    - 0
+    sellValue:
+    - 6
+    - 0
+    hp: 1
+    sh: 0
+    shRegen: 0
+    shStagger: 0
+    hpRate: 0
+    shRate: 0
+    armorType: 0
+    damageType: 0
+    speed: 0
+    dodge: 0
+    dmgReduc: 0
+    critReduc: 0
+    hit: 1
+    damageMin: 10
+    damageMax: 15
+    attackRange: 5
+    aoeRange: 1
+    cooldown: 4
+    critChance: 0
+    critMultiplier: 0
+    effectOnHitChance: 1
+    overrideExistingEffect: 0
+    effectOnHitIDList: 
+    hit_AOE: 1
+    damageMin_AOE: 2
+    damageMax_AOE: 2
+    attackRange_AOE: 2
+    cooldown_AOE: 1
+    critChance_AOE: 0
+    critMultiplier_AOE: 0
+    effectOnHitChance_AOE: 1
+    overrideExistingEffect_AOE: 0
+    effectOnHitIDList_AOE: 
+    hit_Mine: 1
+    damageMin_Mine: 20
+    damageMax_Mine: 25
+    aoeRange_Mine: 3
+    cooldown_Mine: 1
+    critChance_Mine: 0
+    critMultiplier_Mine: 0
+    effectOnHitChance_Mine: 1
+    overrideExistingEffect_Mine: 0
+    effectOnHitIDList_Mine: 04000000
     attackRange_Support: 2
     overrideExistingEffect_Support: 0
     effectOnHitIDList_Support: 
