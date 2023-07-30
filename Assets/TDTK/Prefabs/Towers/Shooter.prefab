@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resetTargetOnAttack: 0
-  prefabID: 11
+  prefabID: -1
   instanceID: -1
   unitName: Shooter
   icon: {fileID: 21300000, guid: 508229c103c92a04fb3a57d50f14f9c9, type: 3}

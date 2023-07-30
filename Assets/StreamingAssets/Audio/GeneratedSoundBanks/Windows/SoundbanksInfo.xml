@@ -168,7 +168,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AE282BC5-3B91-01E9-1E41-ED2D8D7BCA23}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D38A4C8D-19FA-D29E-F623-9A9D6EDAA4E4}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -268,9 +268,17 @@
 					<ShortName>RockFall 6032_93_2(2).wav</ShortName>
 					<CachePath>SFX/RockFall 6032_93_2(2)_10C4C929.wem</CachePath>
 				</File>
+				<File Id="615591963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BROKEN - DESIGNED - WOOD Break Small(3).wav</ShortName>
+					<CachePath>SFX/BROKEN - DESIGNED - WOOD Break Small(3)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="626141150" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GEARBOX - DESIGNED - LARGE - Original Helmsworth Cylinder Press 01.wav</ShortName>
 					<CachePath>SFX/GEARBOX - DESIGNED - LARGE - Original Helmsworth Cylinder Press 01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="631813019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BROKEN - DESIGNED - WOOD Break Small(2).wav</ShortName>
+					<CachePath>SFX/BROKEN - DESIGNED - WOOD Break Small(2)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="643819459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lighting_Hit_03.wav</ShortName>
@@ -304,6 +312,10 @@
 					<ShortName>EFX SD Female Ragging Creature 03 A.wav</ShortName>
 					<CachePath>SFX/EFX SD Female Ragging Creature 03 A_10C4C929.wem</CachePath>
 				</File>
+				<File Id="744398359" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DrumQuietBamboo_Pop_Notification.wav</ShortName>
+					<CachePath>SFX/DrumQuietBamboo_Pop_Notification_C68FE21A.wem</CachePath>
+				</File>
 				<File Id="752394969" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tower Defense Finish.wav</ShortName>
 					<CachePath>SFX/Tower Defense Finish_D79FB2B7.wem</CachePath>
@@ -336,10 +348,6 @@
 					<ShortName>GORE - Head_Explode_6.wav</ShortName>
 					<CachePath>SFX/GORE - Head_Explode_6_10C4C929.wem</CachePath>
 				</File>
-				<File Id="891956026" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Explosive 1 v2 [DOD 130303].flac.wav</ShortName>
-					<CachePath>SFX/Explosive 1 v2 [DOD 130303].flac_1F9316C9.wem</CachePath>
-				</File>
 				<File Id="916854383" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tower Defense Main.wav</ShortName>
 					<CachePath>SFX/Tower Defense Main_D79FB2B7.wem</CachePath>
@@ -355,6 +363,10 @@
 				<File Id="966177410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lighting_Hit_01.wav</ShortName>
 					<CachePath>SFX/Lighting_Hit_01_F33A808C.wem</CachePath>
+				</File>
+				<File Id="967682152" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BROKEN - DESIGNED - WOOD Break Small.wav</ShortName>
+					<CachePath>SFX/BROKEN - DESIGNED - WOOD Break Small_10C4C929.wem</CachePath>
 				</File>
 				<File Id="971497490" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootstepsDirt 6016_88_1.wav</ShortName>
@@ -495,12 +507,15 @@
 						<MediaRef Id="937531035"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2711079512" Name="LoseHealth" DurationType="OneShot" DurationMin="1.2376462" DurationMax="1.4752222">
+				<Event Id="2711079512" Name="LoseHealth" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.1388738" DurationMax="2.633758">
 					<MediaRefs>
-						<MediaRef Id="891956026"/>
+						<MediaRef Id="615591963"/>
+						<MediaRef Id="631813019"/>
+						<MediaRef Id="744398359"/>
+						<MediaRef Id="967682152"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3134349484" Name="MatriarchDeath" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.649917" DurationMax="1.649917">
+				<Event Id="3134349484" Name="MatriarchDeath" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.3448017" DurationMax="1.9940847">
 					<MediaRefs>
 						<MediaRef Id="71893868"/>
 						<MediaRef Id="881131733"/>
@@ -520,7 +535,7 @@
 						<AuxBusRef Id="1656394493" Name="BigReverb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="379836012" Name="MatriarchStep" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.16762424" DurationMax="0.313574">
+				<Event Id="379836012" Name="MatriarchStep" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.08567211" DurationMax="0.48583704">
 					<MediaRefs>
 						<MediaRef Id="105573546"/>
 						<MediaRef Id="136575788"/>
@@ -585,7 +600,7 @@
 						<MediaRef Id="994177853"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="165933688" Name="SpiderStep" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.08095717" DurationMax="0.15144625">
+				<Event Id="165933688" Name="SpiderStep" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.08095717" DurationMax="0.12343965">
 					<MediaRefs>
 						<MediaRef Id="105573546"/>
 						<MediaRef Id="136575788"/>
@@ -626,5 +641,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4C37C803-5264-B2CD-8218-3EB45ADAB37C}</FileHash>
+	<FileHash>{814C3E8E-B141-CA01-891D-96A5346E8642}</FileHash>
 </SoundBanksInfo>
